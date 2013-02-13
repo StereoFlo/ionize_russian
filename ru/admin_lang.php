@@ -110,15 +110,15 @@ $lang['ionize_title_dates'] = 'даты';
 $lang['ionize_title_informations'] = 'Информация';
 $lang['ionize_title_authorization'] = 'Access authorizations';
 $lang['ionize_title_metas'] = 'Мета';
-$lang['ionize_title_modules'] = 'Module management';
-$lang['ionize_title_menu'] = 'Menu management';
-$lang['ionize_title_documentation'] = 'Documentation';
-$lang['ionize_title_ionize_settings'] = 'Ionize interface';
-$lang['ionize_title_help'] = 'Help';
-$lang['title_delete_installer'] = 'Delete the INSTALL folder';
-$lang['title_ionize_installation'] = 'Ionize Installation';
-$lang['ionize_title_site_settings'] = 'Website settings';
-$lang['ionize_title_technical_settings'] = 'Advanced  settings';
+$lang['ionize_title_modules'] = 'Управление модулем';
+$lang['ionize_title_menu'] = 'Управление меню';
+$lang['ionize_title_documentation'] = 'Документация';
+$lang['ionize_title_ionize_settings'] = 'Интерфейс Ionize';
+$lang['ionize_title_help'] = 'Помощь';
+$lang['title_delete_installer'] = 'Удалите папку INSTALL';
+$lang['title_ionize_installation'] = 'Установка Ionize';
+$lang['ionize_title_site_settings'] = 'Настройки сайта';
+$lang['ionize_title_technical_settings'] = 'Расширенные настройки';
 
 
 /*
@@ -126,10 +126,10 @@ $lang['ionize_title_technical_settings'] = 'Advanced  settings';
 | Modal windows
 |--------------------------------------------------------------------------
 */
-$lang['ionize_modal_confirmation_title'] = 'Do you confirm ?';
-$lang['ionize_modal_information_title'] = 'Information';
-$lang['ionize_modal_alert_title'] = 'Alert';
-$lang['ionize_modal_error_title'] = 'Error';
+$lang['ionize_modal_confirmation_title'] = 'Подтверждаете?';
+$lang['ionize_modal_information_title'] = 'Информация';
+$lang['ionize_modal_alert_title'] = 'Уведомление';
+$lang['ionize_modal_error_title'] = 'Ошибка';
 
 
 /*
@@ -137,11 +137,11 @@ $lang['ionize_modal_error_title'] = 'Error';
 | Menus 
 |--------------------------------------------------------------------------
 */
-$lang['ionize_title_add_menu'] = 'Add Menu';
-$lang['ionize_title_create_menu'] = 'Create Menu';
-$lang['ionize_button_save_new_menu'] = 'Save Menu';
-$lang['ionize_button_create_menu'] = 'Create Menu';
-$lang['ionize_title_existing_menu'] = 'Existing menu';
+$lang['ionize_title_add_menu'] = 'Добавить меню';
+$lang['ionize_title_create_menu'] = 'Создать меню';
+$lang['ionize_button_save_new_menu'] = 'Сохранить меню';
+$lang['ionize_button_create_menu'] = 'Создать меню';
+$lang['ionize_title_existing_menu'] = 'Существующие меню';
 $lang['ionize_message_menu_saved'] = 'Menu saved';
 $lang['ionize_message_menu_not_saved'] = 'Menu not saved';
 $lang['ionize_message_menu_already_exists'] = 'This menu already exists';
