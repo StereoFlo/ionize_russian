@@ -83,15 +83,15 @@ $lang['ionize_menu_theme'] = 'Тема...';
 $lang['ionize_menu_technical_settings'] = 'Расширенные настройки...';
 $lang['ionize_menu_translations'] = 'Статический перевод';
 $lang['ionize_menu_site_settings_global'] = 'Настройки сайта';
-$lang['ionize_menu_site_settings_translations'] = 'Static translation';
-$lang['ionize_menu_site_settings_technical'] = 'Advanced settings';
-$lang['ionize_menu_ionize_settings'] = 'Ionize interface';
-$lang['ionize_menu_users'] = 'Users...';
-$lang['ionize_menu_languages'] = 'Languages...';
-$lang['ionize_menu_about'] = 'About';
-$lang['ionize_menu_documentation'] = 'Documentation';
-$lang['ionize_menu_extend_fields'] = 'Extend Fields';
-$lang['ionize_menu_content_elements'] = 'Content Elements';
+$lang['ionize_menu_site_settings_translations'] = 'Статический перевод';
+$lang['ionize_menu_site_settings_technical'] = 'Расширенные настройки';
+$lang['ionize_menu_ionize_settings'] = 'Интерфейс Ionize';
+$lang['ionize_menu_users'] = 'Пользователи...';
+$lang['ionize_menu_languages'] = 'Языки...';
+$lang['ionize_menu_about'] = 'О системе';
+$lang['ionize_menu_documentation'] = 'Документаци';
+$lang['ionize_menu_extend_fields'] = 'Дополнительные поля';
+$lang['ionize_menu_content_elements'] = 'Элементы контента';
 
 
 /*
@@ -99,17 +99,17 @@ $lang['ionize_menu_content_elements'] = 'Content Elements';
 | Global titles
 |--------------------------------------------------------------------------
 */
-$lang['ionize_title_welcome'] = 'Welcome to Ionize';
-$lang['ionize_title_structure'] = 'Structure';
-$lang['ionize_title_options'] = 'Options';
-$lang['ionize_title_setup'] = 'Setup';
-$lang['ionize_title_attributes'] = 'Attributes';
-$lang['ionize_title_operation'] = 'Operations';
-$lang['ionize_title_advanced'] = 'Advanced options';
-$lang['ionize_title_dates'] = 'Dates';
-$lang['ionize_title_informations'] = 'Information';
+$lang['ionize_title_welcome'] = 'Добро пожаловать в Ionize';
+$lang['ionize_title_structure'] = 'Структура';
+$lang['ionize_title_options'] = 'Опции';
+$lang['ionize_title_setup'] = 'настройка';
+$lang['ionize_title_attributes'] = 'Адтрибуты';
+$lang['ionize_title_operation'] = 'Операции';
+$lang['ionize_title_advanced'] = 'Расшеренные опции';
+$lang['ionize_title_dates'] = 'даты';
+$lang['ionize_title_informations'] = 'Информация';
 $lang['ionize_title_authorization'] = 'Access authorizations';
-$lang['ionize_title_metas'] = 'Metas';
+$lang['ionize_title_metas'] = 'Мета';
 $lang['ionize_title_modules'] = 'Module management';
 $lang['ionize_title_menu'] = 'Menu management';
 $lang['ionize_title_documentation'] = 'Documentation';
