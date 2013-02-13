@@ -142,13 +142,13 @@ $lang['ionize_title_create_menu'] = 'Создать меню';
 $lang['ionize_button_save_new_menu'] = 'Сохранить меню';
 $lang['ionize_button_create_menu'] = 'Создать меню';
 $lang['ionize_title_existing_menu'] = 'Существующие меню';
-$lang['ionize_message_menu_saved'] = 'Menu saved';
-$lang['ionize_message_menu_not_saved'] = 'Menu not saved';
-$lang['ionize_message_menu_already_exists'] = 'This menu already exists';
-$lang['ionize_message_menu_updated'] = 'Menu updated';
+$lang['ionize_message_menu_saved'] = 'Меню сохранено';
+$lang['ionize_message_menu_not_saved'] = 'Меню не сохранено';
+$lang['ionize_message_menu_already_exists'] = 'Это меню уже существует';
+$lang['ionize_message_menu_updated'] = 'Меню обновлено';
 $lang['ionize_message_menu_ordered'] = 'Menus ordered';
-$lang['ionize_message_menu_deleted'] = 'Menu deleted';
-$lang['ionize_message_menu_not_deleted'] = 'Menu not deleted';
+$lang['ionize_message_menu_deleted'] = 'Меню удалено';
+$lang['ionize_message_menu_not_deleted'] = 'Меню не удалено';
 
 
 /*
@@ -156,37 +156,37 @@ $lang['ionize_message_menu_not_deleted'] = 'Menu not deleted';
 | Content Elements 
 |--------------------------------------------------------------------------
 */
-$lang['ionize_button_save_element'] = 'Save this Element';
-$lang['ionize_title_content_element_list'] = 'Content Elements';
-$lang['ionize_title_add_content_element'] = 'Add Element';
-$lang['ionize_title_edit_content_element'] = 'Edit Element';
-$lang['ionize_title_element_edit'] = 'Edit Element';
-$lang['ionize_title_element_new'] = 'New Content Element';
-$lang['ionize_title_element_field_edit'] = 'Edit Field';
-$lang['ionize_title_element_fields'] = 'Fields';
-$lang['ionize_label_element_set_name'] = 'Save name';
-$lang['ionize_label_element_add_field'] = 'Add field';
-$lang['ionize_label_content_element'] = 'Content Element';
-$lang['ionize_label_add_content_element'] = 'Add Element';
-$lang['ionize_label_back_to_element_list'] = 'Back to Elements';
-$lang['ionize_label_see_element_detail'] = 'Element details...';
-$lang['ionize_message_content_element_name_saved'] = 'New name saved';
-$lang['ionize_message_content_element_saved'] = 'Content Element saved';
-$lang['ionize_message_content_element_not_saved'] = 'Content Element not saved';
-$lang['ionize_message_delete_element_definition'] = 'Delete this content definition ?';
+$lang['ionize_button_save_element'] = 'Сохранить этот элемент';
+$lang['ionize_title_content_element_list'] = 'Элементы контента';
+$lang['ionize_title_add_content_element'] = 'Добавить элемент';
+$lang['ionize_title_edit_content_element'] = 'Изменить элемент';
+$lang['ionize_title_element_edit'] = 'Изменить элемент';
+$lang['ionize_title_element_new'] = 'Новый элемент контента';
+$lang['ionize_title_element_field_edit'] = 'Изменить поле';
+$lang['ionize_title_element_fields'] = 'Поля';
+$lang['ionize_label_element_set_name'] = 'Сохранить иимя';
+$lang['ionize_label_element_add_field'] = 'Добавить поле';
+$lang['ionize_label_content_element'] = 'Элемент контента';
+$lang['ionize_label_add_content_element'] = 'Добавить эелемент';
+$lang['ionize_label_back_to_element_list'] = 'Назад к элементам';
+$lang['ionize_label_see_element_detail'] = 'Детали элемента...';
+$lang['ionize_message_content_element_name_saved'] = 'Новое имя сохранено';
+$lang['ionize_message_content_element_saved'] = 'Элемент контента сохранен';
+$lang['ionize_message_content_element_not_saved'] = 'Элемент контента не сохранен';
+$lang['ionize_message_delete_element_definition'] = 'Удалить определение контента?';
 $lang['ionize_message_element_ordered'] = 'Elements ordered';
-$lang['ionize_message_element_copied'] = 'Element copied !';
-$lang['ionize_message_element_moved'] = 'Element moved !';
-$lang['ionize_label_create_element'] = 'Create Element';
-$lang['ionize_message_element_field_deleted'] = 'Element field deleted';
-$lang['ionize_message_element_field_not_deleted'] = 'Element field not deleted';
-$lang['ionize_message_element_field_saved'] = 'Content Element saved';
-$lang['ionize_message_element_field_not_saved'] = 'Content Element not saved';
-$lang['ionize_message_element_in_use'] = 'This element has fields or is in use and can\'t be deleted.';
-$lang['ionize_message_element_cannot_be_added_to_parent'] = 'This element can\'t be added to this parent !';
-$lang['ionize_message_element_definition_name_already_exists'] = 'Another Element has already this name !';
-$lang['ionize_title_element_field_new'] = 'New Element field';
-$lang['ionize_message_element_field_name_exists'] = 'This field already exists !';
+$lang['ionize_message_element_copied'] = 'Элемент скопирован!';
+$lang['ionize_message_element_moved'] = 'Элемент перемещен!';
+$lang['ionize_label_create_element'] = 'Создать элемент';
+$lang['ionize_message_element_field_deleted'] = 'Поле элемента удалено';
+$lang['ionize_message_element_field_not_deleted'] = 'Поле элемента не удалено';
+$lang['ionize_message_element_field_saved'] = 'Элемент контента сохранен';
+$lang['ionize_message_element_field_not_saved'] = 'Элемент контента не сохранен';
+$lang['ionize_message_element_in_use'] = 'Используемые элементы нельзя удалять.';
+$lang['ionize_message_element_cannot_be_added_to_parent'] = 'Этот элемент нельзя назначить родителю!';
+$lang['ionize_message_element_definition_name_already_exists'] = 'Такое имя уже существует!';
+$lang['ionize_title_element_field_new'] = 'Поле нового элемента';
+$lang['ionize_message_element_field_name_exists'] = 'Это поле существует!';
 
 
 /*
