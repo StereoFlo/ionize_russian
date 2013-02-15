@@ -30,60 +30,60 @@ $lang['dateformat_complete'] = 'l d F Y \a\t H\hi';
 | Ex : <articles:date format="D" manip="ucase" />
 |--------------------------------------------------------------------------
 */
-$lang['mon'] = 'пн';
-$lang['tue'] = 'вт';
-$lang['wed'] = 'ср';
-$lang['thu'] = 'чт';
-$lang['fri'] = 'пт';
-$lang['sat'] = 'сб';
-$lang['sun'] = 'вс';
+$lang['mon'] = 'РїРЅ';
+$lang['tue'] = 'РІС‚';
+$lang['wed'] = 'СЃСЂ';
+$lang['thu'] = 'С‡С‚';
+$lang['fri'] = 'РїС‚';
+$lang['sat'] = 'СЃР±';
+$lang['sun'] = 'РІСЃ';
 
 /*
 |--------------------------------------------------------------------------
 | PHP day date format 'l' translations
 |--------------------------------------------------------------------------
 */
-$lang['monday'] = 'понедельник';
-$lang['tuesday'] = 'вторник';
-$lang['wednesday'] = 'среда';
-$lang['thursday'] = 'четверг';
-$lang['friday'] = 'пятница';
-$lang['saturday'] = 'суббота';
-$lang['sunday'] = 'воскресенье';
+$lang['monday'] = 'РїРѕРЅРµРґРµР»СЊРЅРёРє';
+$lang['tuesday'] = 'РІС‚РѕСЂРЅРёРє';
+$lang['wednesday'] = 'СЃСЂРµРґР°';
+$lang['thursday'] = 'С‡РµС‚РІРµСЂРі';
+$lang['friday'] = 'РїСЏС‚РЅРёС†Р°';
+$lang['saturday'] = 'СЃСѓР±Р±РѕС‚Р°';
+$lang['sunday'] = 'РІРѕСЃРєСЂРµСЃРµРЅСЊРµ';
 
 /*
 |--------------------------------------------------------------------------
 | PHP month date format 'M' translations
 |--------------------------------------------------------------------------
 */
-$lang['jan'] = 'янв';
-$lang['feb'] = 'фев';
-$lang['mar'] = 'мар';
-$lang['apr'] = 'апр';
-$lang['may'] = 'май';
-$lang['jun'] = 'июн';
-$lang['jul'] = 'июл';
-$lang['aug'] = 'авг';
-$lang['sep'] = 'сен';
-$lang['oct'] = 'окт';
-$lang['nov'] = 'ноя';
-$lang['dec'] = 'дек';
+$lang['jan'] = 'СЏРЅРІ';
+$lang['feb'] = 'С„РµРІ';
+$lang['mar'] = 'РјР°СЂ';
+$lang['apr'] = 'Р°РїСЂ';
+$lang['may'] = 'РјР°Р№';
+$lang['jun'] = 'РёСЋРЅ';
+$lang['jul'] = 'РёСЋР»';
+$lang['aug'] = 'Р°РІРі';
+$lang['sep'] = 'СЃРµРЅ';
+$lang['oct'] = 'РѕРєС‚';
+$lang['nov'] = 'РЅРѕСЏ';
+$lang['dec'] = 'РґРµРє';
 
 /*
 |--------------------------------------------------------------------------
 | PHP month date format 'F' translations
 |--------------------------------------------------------------------------
 */
-$lang['january'] = 'январь';
-$lang['february'] = 'февраль';
-$lang['march'] = 'март';
-$lang['april'] = 'апрель';
-$lang['may'] = 'май';
-$lang['june'] = 'июнь';
-$lang['july'] = 'июль';
-$lang['august'] = 'август';
-$lang['september'] = 'сентябрь';
-$lang['october'] = 'октябрь';
-$lang['november'] = 'ноябрь';
-$lang['december'] = 'декабрь';
+$lang['january'] = 'СЏРЅРІР°СЂСЊ';
+$lang['february'] = 'С„РµРІСЂР°Р»СЊ';
+$lang['march'] = 'РјР°СЂС‚';
+$lang['april'] = 'Р°РїСЂРµР»СЊ';
+$lang['may'] = 'РјР°Р№';
+$lang['june'] = 'РёСЋРЅСЊ';
+$lang['july'] = 'РёСЋР»СЊ';
+$lang['august'] = 'Р°РІРіСѓСЃС‚';
+$lang['september'] = 'СЃРµРЅС‚СЏР±СЂСЊ';
+$lang['october'] = 'РѕРєС‚СЏР±СЂСЊ';
+$lang['november'] = 'РЅРѕСЏР±СЂСЊ';
+$lang['december'] = 'РґРµРєР°Р±СЂСЊ';
 

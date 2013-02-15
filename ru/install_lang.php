@@ -7,25 +7,25 @@ $lang = array();
 | General
 |--------------------------------------------------------------------------
 */
-$lang['title_ionize_installation'] = 		'Установка';
+$lang['title_ionize_installation'] = 		'РЈСЃС‚Р°РЅРѕРІРєР°';
 
-$lang['title_system_check'] = 		'Результаты проверки системы';
-$lang['title_database_settings'] = 	'Настройки БД';
-$lang['title_user_account'] = 	'Настройка администраторы';
-$lang['title_default_language'] = 	'Язык по умолчанию';
-$lang['title_sample_data'] = 	'Установить пример сайта?';
+$lang['title_system_check'] = 		'Р РµР·СѓР»СЊС‚Р°С‚С‹ РїСЂРѕРІРµСЂРєРё СЃРёСЃС‚РµРјС‹';
+$lang['title_database_settings'] = 	'РќР°СЃС‚СЂРѕР№РєРё Р‘Р”';
+$lang['title_user_account'] = 	'РќР°СЃС‚СЂРѕР№РєР° Р°РґРјРёРЅРёСЃС‚СЂР°С‚РѕСЂС‹';
+$lang['title_default_language'] = 	'РЇР·С‹Рє РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ';
+$lang['title_sample_data'] = 	'РЈСЃС‚Р°РЅРѕРІРёС‚СЊ РїСЂРёРјРµСЂ СЃР°Р№С‚Р°?';
 
-$lang['button_next_step'] = 		'Следущий шаг';
-$lang['button_skip_next_step'] = 	'Пропустить & Следущий шаг';
-$lang['button_save_next_step'] = 	'Сохранить & Следующий шаг';
-$lang['button_install_test_data'] = 	"Установить тестовые данные";
-$lang['button_start_migrate'] = 		'Начать миграцию БД';
+$lang['button_next_step'] = 		'РЎР»РµРґСѓС‰РёР№ С€Р°Рі';
+$lang['button_skip_next_step'] = 	'РџСЂРѕРїСѓСЃС‚РёС‚СЊ & РЎР»РµРґСѓС‰РёР№ С€Р°Рі';
+$lang['button_save_next_step'] = 	'РЎРѕС…СЂР°РЅРёС‚СЊ & РЎР»РµРґСѓСЋС‰РёР№ С€Р°Рі';
+$lang['button_install_test_data'] = 	"РЈСЃС‚Р°РЅРѕРІРёС‚СЊ С‚РµСЃС‚РѕРІС‹Рµ РґР°РЅРЅС‹Рµ";
+$lang['button_start_migrate'] = 		'РќР°С‡Р°С‚СЊ РјРёРіСЂР°С†РёСЋ Р‘Р”';
 
-$lang['nav_check'] = 'Проверка системы';
-$lang['nav_db'] = 'База данных';
-$lang['nav_settings'] = 'Настройка';
-$lang['nav_end'] = 'Финиш';
-$lang['nav_data'] = 'Демо данные';
+$lang['nav_check'] = 'РџСЂРѕРІРµСЂРєР° СЃРёСЃС‚РµРјС‹';
+$lang['nav_db'] = 'Р‘Р°Р·Р° РґР°РЅРЅС‹С…';
+$lang['nav_settings'] = 'РќР°СЃС‚СЂРѕР№РєР°';
+$lang['nav_end'] = 'Р¤РёРЅРёС€';
+$lang['nav_data'] = 'Р”РµРјРѕ РґР°РЅРЅС‹Рµ';
 
 
 /*
@@ -34,35 +34,35 @@ $lang['nav_data'] = 'Демо данные';
 |--------------------------------------------------------------------------
 */
 $lang['php_version'] = 			'PHP >= 5';
-$lang['php_version_found'] = 	'Версия PHP';
-$lang['mysql_support'] = 		'Поддержка MySQL';
-$lang['mysql_version_found'] = 	'Версия MySQL';
-$lang['file_uploads'] = 		'Загрузка файлов';
-$lang['mcrypt'] = 				'Библиотека PHP Mcrypt';
-$lang['gd_lib'] = 				'Библиотека PHP GD';
+$lang['php_version_found'] = 	'Р’РµСЂСЃРёСЏ PHP';
+$lang['mysql_support'] = 		'РџРѕРґРґРµСЂР¶РєР° MySQL';
+$lang['mysql_version_found'] = 	'Р’РµСЂСЃРёСЏ MySQL';
+$lang['file_uploads'] = 		'Р—Р°РіСЂСѓР·РєР° С„Р°Р№Р»РѕРІ';
+$lang['mcrypt'] = 				'Р‘РёР±Р»РёРѕС‚РµРєР° PHP Mcrypt';
+$lang['gd_lib'] = 				'Р‘РёР±Р»РёРѕС‚РµРєР° PHP GD';
 $lang['write_config_dir'] = 	'<b>/application/config/</b>';
 $lang['write_files'] = 			'<b>/files/*</b>';
 $lang['write_themes'] = 		'<b>/themes/*</b>';
-$lang['config_check_errors'] = 	'Некоторые параметры не соответствуют требуемым.<br/>Пожалуйста, измените это.';
-$lang['welcome_text'] = 		"<p>Добро пожаловать ! Этот мастер поможет вам установить Ionize.</p>";
-$lang['write_check_text'] = 	"<p>Следующим папкам и файлам требуется разрешение на запись...</p>";
-$lang['title_folder_check'] = 	"Следующим папкам требуется разрешение на запись";
-$lang['title_files_check'] = 	"Следующим файлам требуется разрешение на запись";
+$lang['config_check_errors'] = 	'РќРµРєРѕС‚РѕСЂС‹Рµ РїР°СЂР°РјРµС‚СЂС‹ РЅРµ СЃРѕРѕС‚РІРµС‚СЃС‚РІСѓСЋС‚ С‚СЂРµР±СѓРµРјС‹Рј.<br/>РџРѕР¶Р°Р»СѓР№СЃС‚Р°, РёР·РјРµРЅРёС‚Рµ СЌС‚Рѕ.';
+$lang['welcome_text'] = 		"<p>Р”РѕР±СЂРѕ РїРѕР¶Р°Р»РѕРІР°С‚СЊ ! Р­С‚РѕС‚ РјР°СЃС‚РµСЂ РїРѕРјРѕР¶РµС‚ РІР°Рј СѓСЃС‚Р°РЅРѕРІРёС‚СЊ Ionize.</p>";
+$lang['write_check_text'] = 	"<p>РЎР»РµРґСѓСЋС‰РёРј РїР°РїРєР°Рј Рё С„Р°Р№Р»Р°Рј С‚СЂРµР±СѓРµС‚СЃСЏ СЂР°Р·СЂРµС€РµРЅРёРµ РЅР° Р·Р°РїРёСЃСЊ...</p>";
+$lang['title_folder_check'] = 	"РЎР»РµРґСѓСЋС‰РёРј РїР°РїРєР°Рј С‚СЂРµР±СѓРµС‚СЃСЏ СЂР°Р·СЂРµС€РµРЅРёРµ РЅР° Р·Р°РїРёСЃСЊ";
+$lang['title_files_check'] = 	"РЎР»РµРґСѓСЋС‰РёРј С„Р°Р№Р»Р°Рј С‚СЂРµР±СѓРµС‚СЃСЏ СЂР°Р·СЂРµС€РµРЅРёРµ РЅР° Р·Р°РїРёСЃСЊ";
 
 /*
 |--------------------------------------------------------------------------
 | Database
 |--------------------------------------------------------------------------
 */
-$lang['database_driver'] = 			'Драйвер';
-$lang['database_hostname'] = 		'Хост';
-$lang['database_name'] = 			'БД';
-$lang['database_username'] = 		'Пользователь';
-$lang['database_password'] = 		'Пароль';
-$lang['database_create'] = 			'Создать БД';
-$lang['title_database_create'] = 	'Создание БД';
-$lang['db_create_text'] = 			"<p>Ionize установит или произведет миграцию вашей БД:</p><p><b class=\"highlight\">Новая установка</b> : БД будет создана с новыми таблицами<br/><b class=\"highlight2\">Обновление</b> : Следующий шаг проверить и обновит то, что нужно</p>";
-$lang['db_create_prerequisite'] = 			"Пользователю нужны права на создание БД.<br/>If your database already exists, don't check it.";
+$lang['database_driver'] = 			'Р”СЂР°Р№РІРµСЂ';
+$lang['database_hostname'] = 		'РҐРѕСЃС‚';
+$lang['database_name'] = 			'Р‘Р”';
+$lang['database_username'] = 		'РџРѕР»СЊР·РѕРІР°С‚РµР»СЊ';
+$lang['database_password'] = 		'РџР°СЂРѕР»СЊ';
+$lang['database_create'] = 			'РЎРѕР·РґР°С‚СЊ Р‘Р”';
+$lang['title_database_create'] = 	'РЎРѕР·РґР°РЅРёРµ Р‘Р”';
+$lang['db_create_text'] = 			"<p>Ionize СѓСЃС‚Р°РЅРѕРІРёС‚ РёР»Рё РїСЂРѕРёР·РІРµРґРµС‚ РјРёРіСЂР°С†РёСЋ РІР°С€РµР№ Р‘Р”:</p><p><b class=\"highlight\">РќРѕРІР°СЏ СѓСЃС‚Р°РЅРѕРІРєР°</b> : Р‘Р” Р±СѓРґРµС‚ СЃРѕР·РґР°РЅР° СЃ РЅРѕРІС‹РјРё С‚Р°Р±Р»РёС†Р°РјРё<br/><b class=\"highlight2\">РћР±РЅРѕРІР»РµРЅРёРµ</b> : РЎР»РµРґСѓСЋС‰РёР№ С€Р°Рі РїСЂРѕРІРµСЂРёС‚СЊ Рё РѕР±РЅРѕРІРёС‚ С‚Рѕ, С‡С‚Рѕ РЅСѓР¶РЅРѕ</p>";
+$lang['db_create_prerequisite'] = 			"РџРѕР»СЊР·РѕРІР°С‚РµР»СЋ РЅСѓР¶РЅС‹ РїСЂР°РІР° РЅР° СЃРѕР·РґР°РЅРёРµ Р‘Р”.<br/>If your database already exists, don't check it.";
 $lang['database_error_missing_settings'] = 	'Some information is missing.<br/>Please fill all fields !';
 $lang['database_success_install'] = 		'<b class="ex">The database was successfully installed.</b>';
 $lang['database_success_install_no_settings_needed'] = 		'<b class="ex">Database OK.</b><br/>As the database already exists, the website settings step will be skipped.';
