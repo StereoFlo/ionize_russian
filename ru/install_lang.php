@@ -63,18 +63,18 @@ $lang['database_create'] = 			'Создать БД';
 $lang['title_database_create'] = 	'Создание БД';
 $lang['db_create_text'] = 			"<p>Ionize установит или произведет миграцию вашей БД:</p><p><b class=\"highlight\">Новая установка</b> : БД будет создана с новыми таблицами<br/><b class=\"highlight2\">Обновление</b> : Следующий шаг проверить и обновит то, что нужно</p>";
 $lang['db_create_prerequisite'] = 			"Пользователю нужны права на создание БД.<br/>If your database already exists, don't check it.";
-$lang['database_error_missing_settings'] = 	'Some information is missing.<br/>Please fill all fields !';
-$lang['database_success_install'] = 		'<b class="ex">The database was successfully installed.</b>';
+$lang['database_error_missing_settings'] = 	'Вы пропустили что-то.<br/>Заполните все поля !';
+$lang['database_success_install'] = 		'<b class="ex">База данных, успешно установлена.</b>';
 $lang['database_success_install_no_settings_needed'] = 		'<b class="ex">Database OK.</b><br/>As the database already exists, the website settings step will be skipped.';
-$lang['database_success_migrate'] = 		'<b class="ex">The database was successfully upgraded.</b>';
-$lang['database_error_coud_not_connect'] = 		'Connection to the database fails with the provided settings.';
-$lang['database_error_database_dont_exists'] = 		"The database doesn't exist !";
-$lang['database_error_writing_config_file'] = 		"<b>Error :</b><br/>The file <b style=\"color:#000;\">/application/config/database.php</b> could not be written!<br/>Check your permissions.";
-$lang['database_error_coud_not_write_database'] = 		"<b>Error :</b><br/> Impossible to write data in the database.<br/>Check your DB permissions.";
-$lang['database_error_coud_not_create_database'] = "The installer cannot create the database. Check your database name or your rights";
-$lang['database_error_no_ionize_tables'] = 			"The database you selected seems not to be an Ionize database. Please check again.";
+$lang['database_success_migrate'] = 		'<b class="ex">База данных обновлена.</b>';
+$lang['database_error_coud_not_connect'] = 		'Подключение к БД с указанными данными не выполнено.';
+$lang['database_error_database_dont_exists'] = 		"База данных не существует !";
+$lang['database_error_writing_config_file'] = 		"<b>Error :</b><br/>Файл <b style=\"color:#000;\">/application/config/database.php</b> недоступен для записи!<br/>Проверьте права доступа.";
+$lang['database_error_coud_not_write_database'] = 		"<b>Ошиька :</b><br/> Невозможно записать данные в базу данных.<br/>Проверьте права доступа к БД.";
+$lang['database_error_coud_not_create_database'] = "Программа установки не может создать базу данных. Проверьте имя базы данных или ваши права";
+$lang['database_error_no_ionize_tables'] = 			"БД которую вы выбрали, возможно, не является БД Ionize. Проверьте еще раз.";
 $lang['database_error_no_users_to_migrate'] = 		"To user account to upgrade";
-$lang['database_migration_from'] = 			'This database needs an upgrade.<br/>Upgrade from version : ';
+$lang['database_migration_from'] = 			'БД требуется обновление.<br/>Обновить с версии : ';
 $lang['database_migration_text'] = 		"<p class=\"error\"><b>NOTICE :</b><br/> The database will now be upgraded.<b><br/>Please backup your database before this upgrade.</p>";
 
 
@@ -87,14 +87,14 @@ $lang['lang_code'] = 		'Код (2 симв.)';
 $lang['lang_name'] = 		'Метка';
 $lang['settings_default_lang_title'] = 		'Язык по умолчанию';
 $lang['settings_default_lang_text'] = 		'Вашему веб сайту требуется язык по умолчанию.<br/>Вы можете посетить <a target="_blank" href="http://en.wikipedia.org/wiki/ISO_639-1">страницу ISO 639-1 Википедии</a> для получения информации о кодах.';
-$lang['settings_error_missing_lang_code'] = "The lang code is mandatory";
-$lang['settings_error_missing_lang_name'] = "The lang name is mandatory";
-$lang['settings_error_lang_code_2_chars'] = "The lang code must be on 2 chars. Example : \"en\"";
+$lang['settings_error_missing_lang_code'] = "Код язык является обязательным";
+$lang['settings_error_missing_lang_name'] = "Код язык является обязательным";
+$lang['settings_error_lang_code_2_chars'] = "Код язык должен быть на 2 символов. Пример : \"ru\"";
 $lang['settings_error_write_rights'] = "No write rights on <b>/application/config/language.php</b>. Please check the PHP rights on this file.";
 $lang['settings_error_write_rights_config'] = "No write rights on <b>/application/config/config.php</b>. Please check the PHP rights on this file.";
 $lang['settings_error_admin_url'] = "The admin URL must be an alphanumerical string, without spaces or special chars";
-$lang['settings_admin_url_title'] = 		'Administration panel URL';
-$lang['settings_admin_url_text'] = 		'It is strongly recommended to change the default one.';
+$lang['settings_admin_url_title'] = 		'URL админ-панели';
+$lang['settings_admin_url_text'] = 		'Настоятельно рекомендуется изменить.';
 $lang['admin_url'] = 'Admin URL';
 
 /*
