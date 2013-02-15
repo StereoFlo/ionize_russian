@@ -338,12 +338,12 @@ $lang['ionize_message_link_added'] = 'Ссылка добавлена';
 $lang['ionize_message_target_link_not_unique'] = 'Цель элемента должна быть уникальна!';
 $lang['button_delete_installer_done_admin'] = 'Завершено! Перейти в панель администратора';
 $lang['button_delete_installer_done_site'] = 'Завершено! Перейти к сайту';
-$lang['ionize_message_item_used_by_data_no_delete'] = 'This item is used and can\'t be deleted';
+$lang['ionize_message_item_used_by_data_no_delete'] = 'Эта позиция используется и ее нельзя удалить';
 $lang['ionize_message_url_not_found'] = 'URL не найден';
-$lang['ionize_message_url_got_404'] = 'This URL returns a 404 page';
-$lang['ionize_message_form_validation_error'] = 'Some data are missing or incorrect';
-$lang['ionize_message_form_validation_please_correct'] = 'Please correct the form data';
-$lang['ionize_message_unsaved_element_quit'] = 'This element has changed but isn\'t saved. Do you want to leave ?';
+$lang['ionize_message_url_got_404'] = 'Этот URL возвращает 404 страницу';
+$lang['ionize_message_form_validation_error'] = 'Некоторые данные не верны или не введены';
+$lang['ionize_message_form_validation_please_correct'] = 'Пожалуйста, проверьте данные формы';
+$lang['ionize_message_unsaved_element_quit'] = 'Элемент изменен, но не сохранен. Уйти?';
 
 
 /*
@@ -351,27 +351,27 @@ $lang['ionize_message_unsaved_element_quit'] = 'This element has changed but isn
 | Admin : Language
 |--------------------------------------------------------------------------
 */
-$lang['ionize_label_copy_content'] = 'Copy content';
-$lang['ionize_label_copy_all_content'] = 'Copy all content';
-$lang['ionize_label_copy_article_content'] = 'Include articles';
+$lang['ionize_label_copy_content'] = 'Скопировать контент';
+$lang['ionize_label_copy_all_content'] = 'Скопировать весь контент';
+$lang['ionize_label_copy_article_content'] = 'Включить статьи';
 $lang['ionize_label_force_lang_urls'] = 'Force lang in URLs';
-$lang['ionize_title_language'] = 'Language management';
-$lang['ionize_title_existing_languages'] = 'Existing languages';
-$lang['ionize_title_add_language'] = 'Add one language';
-$lang['ionize_title_advanced_language'] = 'Advanced functions';
-$lang['ionize_title_lang_urls'] = 'URLs and Languages';
-$lang['ionize_message_no_languages'] = '<strong>No existing language</strong>. <br/> Please create one language.';
-$lang['ionize_message_lang_saved'] = 'Language saved';
-$lang['ionize_message_lang_not_saved'] = 'Language not saved';
-$lang['ionize_message_lang_file_not_saved'] = 'Error : Could not write to application/config/language.php';
-$lang['ionize_message_lang_code_already_exists'] = 'This lang code already exists';
-$lang['ionize_message_lang_not_deleted'] = 'Language not deleted';
-$lang['ionize_message_lang_deleted'] = 'Language deleted';
-$lang['ionize_message_lang_ordered'] = 'Languages ordered';
-$lang['ionize_message_lang_not_ordered'] = 'Languages not ordered';
-$lang['ionize_message_lang_updated'] = 'Languages updated';
-$lang['ionize_notify_advanced_language'] = 'Use these functions only if you know what you are doing.';
-$lang['ionize_button_clean_lang_tables'] = 'Clean lang tables';
+$lang['ionize_title_language'] = 'Управление переводами';
+$lang['ionize_title_existing_languages'] = 'Существующие переводы';
+$lang['ionize_title_add_language'] = 'Добавить перевод';
+$lang['ionize_title_advanced_language'] = 'расширенные функции';
+$lang['ionize_title_lang_urls'] = 'URL и переводы';
+$lang['ionize_message_no_languages'] = '<strong>Нет существующих переводов</strong>. <br/> Создайте.';
+$lang['ionize_message_lang_saved'] = 'Перевод сохранен';
+$lang['ionize_message_lang_not_saved'] = 'Перевод не сохранен';
+$lang['ionize_message_lang_file_not_saved'] = 'Ошибка : Не могу записать application/config/language.php';
+$lang['ionize_message_lang_code_already_exists'] = 'Этот код языка уже используется';
+$lang['ionize_message_lang_not_deleted'] = 'Перевод не удален';
+$lang['ionize_message_lang_deleted'] = 'Перевод удален';
+$lang['ionize_message_lang_ordered'] = 'Переводы перестроены';
+$lang['ionize_message_lang_not_ordered'] = 'Переводы не перестроены';
+$lang['ionize_message_lang_updated'] = 'Переводы обновлены';
+$lang['ionize_notify_advanced_language'] = 'Используйте эти функиции, только если понимаете, что делаете.';
+$lang['ionize_button_clean_lang_tables'] = 'Очистить таблицы языков';
 $lang['ionize_text_clean_lang_tables'] = 'Removes all lang content for languages which don\'t exists anymore';
 $lang['ionize_button_copy_content'] = 'Copy content';
 $lang['ionize_help_clean_lang_tables'] = 'Clean the content of lang tables by removing all content for non existing languages.';
@@ -416,7 +416,7 @@ $lang['ionize_label_password2'] = 'Confirm';
 $lang['ionize_label_group_name'] = 'Name';
 $lang['ionize_label_group_title'] = 'Title';
 $lang['ionize_label_group_level'] = 'Level';
-$lang['ionize_label_group_description'] = 'Description';
+$lang['ionize_label_group_description'] = 'Описание';
 $lang['ionize_label_export_meta'] = 'Meta-data to export';
 $lang['ionize_label_export_format'] = 'Format';
 $lang['ionize_label_last_visit'] = 'Last visit';
@@ -646,36 +646,36 @@ $lang['ionize_message_view_saved'] = 'View saved';
 | Admin : Page
 |--------------------------------------------------------------------------
 */
-$lang['ionize_title_pages'] = 'Pages';
-$lang['ionize_title_create_page'] = 'Create page';
-$lang['ionize_title_new_page'] = 'New page';
-$lang['ionize_title_edit_page'] = 'Page edit';
-$lang['ionize_title_page_parent'] = 'Parent';
+$lang['ionize_title_pages'] = 'Страницы';
+$lang['ionize_title_create_page'] = 'Создать страницы';
+$lang['ionize_title_new_page'] = 'Новая страница';
+$lang['ionize_title_edit_page'] = 'Изменить страницу';
+$lang['ionize_title_page_parent'] = 'Родитель';
 $lang['ionize_title_sub_navigation'] = 'Sub Navigation';
-$lang['ionize_title_help_articles_types'] = 'About Types';
-$lang['ionize_label_page_online'] = 'Page Online';
-$lang['ionize_label_page_content_online'] = 'Online for this language';
+$lang['ionize_title_help_articles_types'] = 'О типах';
+$lang['ionize_label_page_online'] = 'Страница онлайн';
+$lang['ionize_label_page_content_online'] = 'Онлайн для этого языка';
 $lang['ionize_label_online_in'] = 'Online in';
-$lang['ionize_label_articles'] = 'Articles';
-$lang['ionize_label_add_article'] = 'Add Article';
-$lang['ionize_label_appears'] = 'Display in nav';
-$lang['ionize_label_link'] = 'Link';
-$lang['ionize_label_pagination_nb'] = 'Articles / page';
-$lang['ionize_label_article_list_template'] = 'List view';
-$lang['ionize_label_page_delete_date'] = 'Page delete date';
-$lang['ionize_label_menu'] = 'Menu';
-$lang['ionize_label_home_page'] = 'Home page';
-$lang['ionize_help_home_page'] = 'Home page';
-$lang['ionize_label_page_used_by_module'] = 'Used by module';
+$lang['ionize_label_articles'] = 'Статьи';
+$lang['ionize_label_add_article'] = 'Добавить статью';
+$lang['ionize_label_appears'] = 'Показать в навигации';
+$lang['ionize_label_link'] = 'Ссылка';
+$lang['ionize_label_pagination_nb'] = 'Статьи / страница';
+$lang['ionize_label_article_list_template'] = 'Список';
+$lang['ionize_label_page_delete_date'] = 'Дата удаления страницы';
+$lang['ionize_label_menu'] = 'Меню';
+$lang['ionize_label_home_page'] = 'Главная страница';
+$lang['ionize_help_home_page'] = 'Главная страница';
+$lang['ionize_label_page_used_by_module'] = 'Используется модулем';
 $lang['ionize_help_page_used_by_module'] = 'If checked, all sub URLs will refer to this page, and will not return one 404.';
 $lang['ionize_label_sitemap_priority'] = 'Sitemap priority';
-$lang['ionize_label_article_reorder'] = 'Reorder Articles';
+$lang['ionize_label_article_reorder'] = 'Перестроит статьи';
 $lang['ionize_label_date_asc'] = 'Date Ascendant';
 $lang['ionize_label_date_desc'] = 'Date Descendant';
-$lang['ionize_label_no_sub_navigation'] = '-- No one --';
-$lang['ionize_button_reorder'] = 'Reorder';
-$lang['ionize_select_default_view'] = '-- Default view --';
-$lang['ionize_select_everyone'] = '-- Everyone --';
+$lang['ionize_label_no_sub_navigation'] = '-- Ни одного --';
+$lang['ionize_button_reorder'] = 'Перестроить';
+$lang['ionize_select_default_view'] = '-- Вид по умолчанию --';
+$lang['ionize_select_everyone'] = '-- Для всех --';
 $lang['ionize_message_page_name_exists'] = 'This page already exists!';
 $lang['ionize_message_page_url_exists'] = 'One page with a same URL already exists !';
 $lang['ionize_message_page_saved'] = 'Page saved';
@@ -736,7 +736,7 @@ $lang['ionize_label_copyright'] = 'Copyright';
 $lang['ionize_label_date'] = 'Date';
 $lang['ionize_label_alt'] = 'Alternative text';
 $lang['ionize_label_link'] = 'Link';
-$lang['ionize_label_description'] = 'Description';
+$lang['ionize_label_description'] = 'Описание';
 $lang['ionize_label_reload_media_list'] = 'Reload media list';
 $lang['ionize_label_media_container'] = 'Album / Serie';
 $lang['ionize_label_media_crop_picture'] = 'Crop Picture';
@@ -760,7 +760,7 @@ $lang['ionize_message_media_data_saved'] = 'Media data saved';
 $lang['ionize_message_media_data_not_saved'] = 'Media data not saved';
 $lang['ionize_message_thumb_initialized'] = 'Thumbnail regenerated';
 $lang['ionize_message_media_reordered'] = 'Medias ordered';
-$lang['ionize_message_alt_desc_for_mp3'] = 'Because this media is an MP3, the following <strong>Description</strong> and the <strong>Alternative text</strong> are generated from MP3 file\'s ID3 tags.';
+$lang['ionize_message_alt_desc_for_mp3'] = 'Because this media is an MP3, the following <strong>Описание</strong> and the <strong>Alternative text</strong> are generated from MP3 file\'s ID3 tags.';
 // Exceptions
 $lang['ionize_exception_folder_creation'] = 'Error during folder creation';
 $lang['ionize_exception_no_thumbs_settings'] = 'Settings : No thumbnails defined!';
@@ -968,19 +968,19 @@ $lang['ionize_message_internal_link_not_found'] = 'Error : Internal link not fou
 | Admin : Modules
 |--------------------------------------------------------------------------
 */
-$lang['ionize_title_modules_list'] = 'Modules list';
-$lang['ionize_label_module_name'] = 'Name';
+$lang['ionize_title_modules_list'] = 'Список модулей';
+$lang['ionize_label_module_name'] = 'Имя';
 $lang['ionize_label_module_uri'] = 'URI';
-$lang['ionize_label_module_install'] = 'Install';
-$lang['ionize_label_module_uninstall'] = 'Uninstall';
-$lang['ionize_label_database_tables'] = 'Tables';
-$lang['ionize_message_module_install_error_no_config'] = 'Error : Module without config.xml';
-$lang['ionize_message_module_install_error_config_write'] = 'Write error : application/config/modules.php';
-$lang['ionize_message_module_page_conflict'] = 'Error : URI conflict with an existing page';
-$lang['ionize_message_module_install_database_error'] = 'Error when installing tables';
-$lang['ionize_message_module_saved'] = 'Module installed';
-$lang['ionize_message_module_uninstalled'] = 'Module uninstalled';
-$lang['ionize_message_module_not_installed'] = 'Module not installed !';
+$lang['ionize_label_module_install'] = 'Установить';
+$lang['ionize_label_module_uninstall'] = 'Деинсталировать';
+$lang['ionize_label_database_tables'] = 'Таблицы';
+$lang['ionize_message_module_install_error_no_config'] = 'Ошибка : Модуль не содержит файл config.xml';
+$lang['ionize_message_module_install_error_config_write'] = 'Ошибка записи : application/config/modules.php';
+$lang['ionize_message_module_page_conflict'] = 'Ошибка : URI конфликт с существующей страницей';
+$lang['ionize_message_module_install_database_error'] = 'Ошибка при установке таблицы';
+$lang['ionize_message_module_saved'] = 'Модуль установлен';
+$lang['ionize_message_module_uninstalled'] = 'Модуль деинсталирован';
+$lang['ionize_message_module_not_installed'] = 'Модуль не установлен !';
 
 
 /*
@@ -1032,9 +1032,9 @@ $lang['ionize_label_bottom_right'] = 'bottom-right';
 | Admin : Help /  About Us
 |--------------------------------------------------------------------------
 */
-$lang['ionize_label_about_us_author'] = 'Author';
-$lang['ionize_label_about_us_contributors'] = 'Contributors';
-$lang['ionize_label_about_us_thaks_to'] = 'Thanks to';
-$lang['ionize_label_about_us_license'] = 'License';
+$lang['ionize_label_about_us_author'] = 'Автор';
+$lang['ionize_label_about_us_contributors'] = 'Авторы';
+$lang['ionize_label_about_us_thaks_to'] = 'Спасибо';
+$lang['ionize_label_about_us_license'] = 'Лицензия';
 
 
