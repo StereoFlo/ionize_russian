@@ -102,18 +102,18 @@ $lang['admin_url'] = 'Admin URL';
 | User
 |--------------------------------------------------------------------------
 */
-$lang['user_introduction'] = 	'You will connect to the Administration panel with this login.';
-$lang['username'] = 			'Login (min. 4 chars)';
-$lang['screen_name'] = 			'Full name';
+$lang['user_introduction'] = 	'Вы сможете входить в админ-панель используя пользователя, которого создадите на этом шаге.';
+$lang['username'] = 			'Логин (мин. 4 симв.)';
+$lang['screen_name'] = 			'Полное имя';
 $lang['email'] = 				'Email';
-$lang['password'] = 			'Password (min. 4 chars)';
-$lang['password2'] = 			'Confirm password';
-$lang['user_error_missing_settings'] = 			'Please fill all fields !';
-$lang['user_error_not_enough_char'] = 			'Login and Password must be at least 4 char length!';
-$lang['user_error_email_not_valid'] = 			'Email seems not to be valid. Please correct.';
-$lang['user_error_passwords_not_equal'] = 		'Password and confirmation password are not equal.	';
-$lang['user_info_admin_exists'] = 		'An administrator user already exists in the database.<br/>You can skip this step if you wish not to create or update an Admin account.';
-$lang['encryption_key'] = 			'Encryption Key';
+$lang['password'] = 			'Пароль (мин. 4 симв.)';
+$lang['password2'] = 			'Подтвердите пароль';
+$lang['user_error_missing_settings'] = 			'Пожалуйста, заполните все поля !';
+$lang['user_error_not_enough_char'] = 			'Логин или пароль должны быть больше 4 символов!';
+$lang['user_error_email_not_valid'] = 			'Email введен не верно, попробуйте еще раз.';
+$lang['user_error_passwords_not_equal'] = 		'Пароль и подтверждение не совпадают.	';
+$lang['user_info_admin_exists'] = 		'Администратор существует в базе.<br/>Вы можете пропустить этот шаг, если не хотите создавать или обновлять учетную запись администратора.';
+$lang['encryption_key'] = 			'Ключ шифрования';
 $lang['encryption_key_text'] = 		"Ionize needs an 128 bits Encryption Key.<br />This key will encode the users account and all sensitive data.<br/>It will be written in the <b>/application/config/config.php</b> file.";
 $lang['no_encryption_key_found'] = 	"The encryption key was not found. the user account were not migrated. <b>You must create a new Admin user</b>.";
 
@@ -124,9 +124,9 @@ $lang['no_encryption_key_found'] = 	"The encryption key was not found. the user 
 |--------------------------------------------------------------------------
 */
 $lang['data_install_intro'] = 	"<p>If this is the first time you use Ionize, it's strongly recommended you install the sample website.<br/>This website includes : </p><ul><li>A complete set of data, useful to test Ionize,</li><li>1 working example theme</li></ul>";
-$lang['title_skip_this_step'] = "Skip this step";
+$lang['title_skip_this_step'] = "Пропустить этот шаг";
 
-$lang['title_finish'] = 		'Installation completed';
-$lang['finish_text'] = 			'<b>IMPORTANT</b>: <br/>You have to delete the "<b>/install</b>" folder manually before accessing the website or the admin section.';
-$lang['button_go_to_admin'] = 	'Go to admin';
-$lang['button_go_to_site'] = 	'Go to website';
+$lang['title_finish'] = 		'Установка завершена';
+$lang['finish_text'] = 			'<b>ВАЖНО</b>: <br/>Вы должны удалить папку "<b>/install</b>" вручную, до того, как перейдете к сайту или админ-панели.';
+$lang['button_go_to_admin'] = 	'Перейти в админ-панель';
+$lang['button_go_to_site'] = 	'Перейти к сайту';
