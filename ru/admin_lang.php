@@ -446,19 +446,19 @@ $lang['ionize_button_export'] = 'Экспорт';
 | Admin : Settings
 |--------------------------------------------------------------------------
 */
-$lang['ionize_label_site_title'] = 'Website title';
-$lang['ionize_message_settings_saved'] = 'Settings saved';
-$lang['ionize_title_visual_help'] = 'Visual help';
-$lang['ionize_label_show_help_tips'] = 'Display help on fields';
-$lang['ionize_title_admin_panel_languages'] =  'Administration interface languages';
-$lang['ionize_title_admin_panel_datetime'] =  'Date and Time';
-$lang['ionize_label_display_connected_label'] = 'Connected label';
-$lang['ionize_help_display_connected_label'] = 'Displays a label on the top left of the website when you\'re connected to the Admin panel';
+$lang['ionize_label_site_title'] = 'Заголовок сайта';
+$lang['ionize_message_settings_saved'] = 'Настройки сохранены';
+$lang['ionize_title_visual_help'] = 'Визуальная помощь';
+$lang['ionize_label_show_help_tips'] = 'Показывать подсказки на полях';
+$lang['ionize_title_admin_panel_languages'] =  'Язык интерфеса администратора';
+$lang['ionize_title_admin_panel_datetime'] =  'Дата и время';
+$lang['ionize_label_display_connected_label'] = 'Метка подключения';
+$lang['ionize_help_display_connected_label'] = 'Отображает метку в левом верхнем углу веб-сайта, когда вы находитесь в админ-панели';
 $lang['ionize_label_enable_backend_tracker'] = 'Backend tracker';
 $lang['ionize_help_enable_backend_tracker'] = 'Displays users logged to the backend on the dashboard / displays one alert flag on content when it is edited by another user.';
 $lang['ionize_onchange_ionize_settings'] = 'The Administration panel will reload after saving these settings.';
-$lang['ionize_label_sitemaps_gzip'] = 'Compress Sitemap';
-$lang['ionize_help_setting_sitemaps_gzip'] = 'Compress the Sitemap file with gzip.';
+$lang['ionize_label_sitemaps_gzip'] = 'Сжимать карту сайта';
+$lang['ionize_help_setting_sitemaps_gzip'] = 'Сжимать файл карты сайта используя gzip.';
 
 
 /*
@@ -466,13 +466,13 @@ $lang['ionize_help_setting_sitemaps_gzip'] = 'Compress the Sitemap file with gzi
 | Admin : Technical Settings
 |--------------------------------------------------------------------------
 */
-$lang['ionize_title_themes'] = 'Themes';
-$lang['ionize_title_theme'] = 'Theme';
+$lang['ionize_title_themes'] = 'Темы';
+$lang['ionize_title_theme'] = 'Тема';
 $lang['ionize_title_translation'] = 'Static translations';
-$lang['ionize_title_database'] = 'Database';
+$lang['ionize_title_database'] = 'База данных';
 $lang['ionize_title_mail_send'] = 'Email';
-$lang['ionize_title_media_management'] = 'Medias';
-$lang['ionize_title_google_analytics'] = 'Statistics';
+$lang['ionize_title_media_management'] = 'Медиа';
+$lang['ionize_title_google_analytics'] = 'Статистика';
 $lang['ionize_title_thumb_new'] = 'New picture thumbnail';
 $lang['ionize_title_thumbs'] = 'Thumbnails';
 $lang['ionize_title_thumbs_system'] = 'Ionize system thumbnail';
