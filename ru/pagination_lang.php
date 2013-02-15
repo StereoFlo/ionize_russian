@@ -11,7 +11,7 @@
 | It will be overwritten when migrating to a new Ionize release.
 |--------------------------------------------------------------------------
 */
-$lang['first_link'] = 'First page';
-$lang['last_link'] = 'Last page';
-$lang['next_link'] = 'Next page';
-$lang['prev_link'] = 'Previous page';
+$lang['first_link'] = 'Первая странийа';
+$lang['last_link'] = 'Последняя страница';
+$lang['next_link'] = 'Следующая страница';
+$lang['prev_link'] = 'Предыдущая страница';

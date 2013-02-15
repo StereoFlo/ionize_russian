@@ -7,25 +7,25 @@ $lang = array();
 | General
 |--------------------------------------------------------------------------
 */
-$lang['title_ionize_installation'] = 		'Installation';
+$lang['title_ionize_installation'] = 		'Установка';
 
-$lang['title_system_check'] = 		'System check result';
-$lang['title_database_settings'] = 	'Database settings';
-$lang['title_user_account'] = 	'Admin user account';
-$lang['title_default_language'] = 	'Default language';
-$lang['title_sample_data'] = 	'Install the sample website?';
+$lang['title_system_check'] = 		'Результаты проверки системы';
+$lang['title_database_settings'] = 	'Настройки БД';
+$lang['title_user_account'] = 	'Настройка администраторы';
+$lang['title_default_language'] = 	'Язык по умолчанию';
+$lang['title_sample_data'] = 	'Установить пример сайта?';
 
-$lang['button_next_step'] = 		'Next step';
-$lang['button_skip_next_step'] = 	'Skip & Next step';
-$lang['button_save_next_step'] = 	'Save & Go to Next step';
-$lang['button_install_test_data'] = 	"Install test data";
-$lang['button_start_migrate'] = 		'Start database migration';
+$lang['button_next_step'] = 		'Следущий шаг';
+$lang['button_skip_next_step'] = 	'Пропустить & Следущий шаг';
+$lang['button_save_next_step'] = 	'Сохранить & Следующий шаг';
+$lang['button_install_test_data'] = 	"Установить тестовые данные";
+$lang['button_start_migrate'] = 		'Начать миграцию БД';
 
-$lang['nav_check'] = 'System check';
-$lang['nav_db'] = 'Database';
-$lang['nav_settings'] = 'Settings';
-$lang['nav_end'] = 'End';
-$lang['nav_data'] = 'Demo data';
+$lang['nav_check'] = 'Проверка системы';
+$lang['nav_db'] = 'База данных';
+$lang['nav_settings'] = 'Настройка';
+$lang['nav_end'] = 'Финиш';
+$lang['nav_data'] = 'Демо данные';
 
 
 /*
@@ -34,35 +34,35 @@ $lang['nav_data'] = 'Demo data';
 |--------------------------------------------------------------------------
 */
 $lang['php_version'] = 			'PHP >= 5';
-$lang['php_version_found'] = 	'PHP version';
-$lang['mysql_support'] = 		'MySQL support';
-$lang['mysql_version_found'] = 	'MySQL version';
-$lang['file_uploads'] = 		'File upload';
-$lang['mcrypt'] = 				'PHP Mcrypt Lib';
-$lang['gd_lib'] = 				'PHP GD Lib';
+$lang['php_version_found'] = 	'Версия PHP';
+$lang['mysql_support'] = 		'Поддержка MySQL';
+$lang['mysql_version_found'] = 	'Версия MySQL';
+$lang['file_uploads'] = 		'Загрузка файлов';
+$lang['mcrypt'] = 				'Библиотека PHP Mcrypt';
+$lang['gd_lib'] = 				'Библиотека PHP GD';
 $lang['write_config_dir'] = 	'<b>/application/config/</b>';
 $lang['write_files'] = 			'<b>/files/*</b>';
 $lang['write_themes'] = 		'<b>/themes/*</b>';
-$lang['config_check_errors'] = 	'Some base requirement are not OK.<br/>Please correct them to continue the installation.';
-$lang['welcome_text'] = 		"<p>Welcome ! These steps will help you to install Ionize.</p>";
-$lang['write_check_text'] = 	"<p>The following folders and files need to be writable...</p>";
-$lang['title_folder_check'] = 	"These folders needs to be writable";
-$lang['title_files_check'] = 	"These files needs to be writable";
+$lang['config_check_errors'] = 	'Некоторые параметры не соответствуют требуемым.<br/>Пожалуйста, измените это.';
+$lang['welcome_text'] = 		"<p>Добро пожаловать ! Этот мастер поможет вам установить Ionize.</p>";
+$lang['write_check_text'] = 	"<p>Следующим папкам и файлам требуется разрешение на запись...</p>";
+$lang['title_folder_check'] = 	"Следующим папкам требуется разрешение на запись";
+$lang['title_files_check'] = 	"Следующим файлам требуется разрешение на запись";
 
 /*
 |--------------------------------------------------------------------------
 | Database
 |--------------------------------------------------------------------------
 */
-$lang['database_driver'] = 			'Driver';
-$lang['database_hostname'] = 		'Hostname';
-$lang['database_name'] = 			'Database';
-$lang['database_username'] = 		'User';
-$lang['database_password'] = 		'Password';
-$lang['database_create'] = 			'Create the database';
-$lang['title_database_create'] = 	'Database creation';
-$lang['db_create_text'] = 			"<p>Ionize will install or migrate your database:</p><p><b class=\"highlight\">New installation</b> : The database and the tables will be created<br/><b class=\"highlight2\">Upgrade</b> : The next step will check if an upgrade is needed</p>";
-$lang['db_create_prerequisite'] = 			"The user needs to have the right to create database.<br/>If your database already exists, don't check it.";
+$lang['database_driver'] = 			'Драйвер';
+$lang['database_hostname'] = 		'Хост';
+$lang['database_name'] = 			'БД';
+$lang['database_username'] = 		'Пользователь';
+$lang['database_password'] = 		'Пароль';
+$lang['database_create'] = 			'Создать БД';
+$lang['title_database_create'] = 	'Создание БД';
+$lang['db_create_text'] = 			"<p>Ionize установит или произведет миграцию вашей БД:</p><p><b class=\"highlight\">Новая установка</b> : БД будет создана с новыми таблицами<br/><b class=\"highlight2\">Обновление</b> : Следующий шаг проверить и обновит то, что нужно</p>";
+$lang['db_create_prerequisite'] = 			"Пользователю нужны права на создание БД.<br/>If your database already exists, don't check it.";
 $lang['database_error_missing_settings'] = 	'Some information is missing.<br/>Please fill all fields !';
 $lang['database_success_install'] = 		'<b class="ex">The database was successfully installed.</b>';
 $lang['database_success_install_no_settings_needed'] = 		'<b class="ex">Database OK.</b><br/>As the database already exists, the website settings step will be skipped.';

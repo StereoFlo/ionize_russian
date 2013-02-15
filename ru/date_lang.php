@@ -30,60 +30,60 @@ $lang['dateformat_complete'] = 'l d F Y \a\t H\hi';
 | Ex : <articles:date format="D" manip="ucase" />
 |--------------------------------------------------------------------------
 */
-$lang['mon'] = 'mon';
-$lang['tue'] = 'tue';
-$lang['wed'] = 'wed';
-$lang['thu'] = 'thu';
-$lang['fri'] = 'fri';
-$lang['sat'] = 'sat';
-$lang['sun'] = 'sun';
+$lang['mon'] = 'пн';
+$lang['tue'] = 'вт';
+$lang['wed'] = 'ср';
+$lang['thu'] = 'чт';
+$lang['fri'] = 'пт';
+$lang['sat'] = 'сб';
+$lang['sun'] = 'вс';
 
 /*
 |--------------------------------------------------------------------------
 | PHP day date format 'l' translations
 |--------------------------------------------------------------------------
 */
-$lang['monday'] = 'monday';
-$lang['tuesday'] = 'tuesday';
-$lang['wednesday'] = 'wednesday';
-$lang['thursday'] = 'thursday';
-$lang['friday'] = 'friday';
-$lang['saturday'] = 'saturday';
-$lang['sunday'] = 'sunday';
+$lang['monday'] = 'понедельник';
+$lang['tuesday'] = 'вторник';
+$lang['wednesday'] = 'среда';
+$lang['thursday'] = 'четверг';
+$lang['friday'] = 'п€тница';
+$lang['saturday'] = 'суббота';
+$lang['sunday'] = 'воскресенье';
 
 /*
 |--------------------------------------------------------------------------
 | PHP month date format 'M' translations
 |--------------------------------------------------------------------------
 */
-$lang['jan'] = 'jan';
-$lang['feb'] = 'feb';
-$lang['mar'] = 'mar';
-$lang['apr'] = 'apr';
-$lang['may'] = 'may';
-$lang['jun'] = 'jun';
-$lang['jul'] = 'jul';
-$lang['aug'] = 'aug';
-$lang['sep'] = 'sep';
-$lang['oct'] = 'oct';
-$lang['nov'] = 'nov';
-$lang['dec'] = 'dec';
+$lang['jan'] = '€нв';
+$lang['feb'] = 'фев';
+$lang['mar'] = 'мар';
+$lang['apr'] = 'апр';
+$lang['may'] = 'май';
+$lang['jun'] = 'июн';
+$lang['jul'] = 'июл';
+$lang['aug'] = 'авг';
+$lang['sep'] = 'сен';
+$lang['oct'] = 'окт';
+$lang['nov'] = 'но€';
+$lang['dec'] = 'дек';
 
 /*
 |--------------------------------------------------------------------------
 | PHP month date format 'F' translations
 |--------------------------------------------------------------------------
 */
-$lang['january'] = 'january';
-$lang['february'] = 'february';
-$lang['march'] = 'march';
-$lang['april'] = 'april';
-$lang['may'] = 'may';
-$lang['june'] = 'june';
-$lang['july'] = 'july';
-$lang['august'] = 'august';
-$lang['september'] = 'september';
-$lang['october'] = 'october';
-$lang['november'] = 'november';
-$lang['december'] = 'december';
+$lang['january'] = '€нварь';
+$lang['february'] = 'февраль';
+$lang['march'] = 'март';
+$lang['april'] = 'апрель';
+$lang['may'] = 'май';
+$lang['june'] = 'июнь';
+$lang['july'] = 'июль';
+$lang['august'] = 'август';
+$lang['september'] = 'сент€брь';
+$lang['october'] = 'окт€брь';
+$lang['november'] = 'но€брь';
+$lang['december'] = 'декабрь';
 
