@@ -639,7 +639,7 @@ $lang['ionize_label_type'] = 'Type';
 $lang['ionize_label_current_theme'] = 'Current theme';
 $lang['ionize_select_no_type'] = '-- No type --';
 $lang['ionize_message_views_saved'] = 'Views settings saved';
-$lang['ionize_message_view_saved'] = 'View saved';
+$lang['ionize_message_view_saved'] = 'Вид сохранен';
 
 /*
 |--------------------------------------------------------------------------
