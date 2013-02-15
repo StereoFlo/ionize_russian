@@ -83,10 +83,10 @@ $lang['database_migration_text'] = 		"<p class=\"error\"><b>NOTICE :</b><br/> Th
 | Settings
 |--------------------------------------------------------------------------
 */
-$lang['lang_code'] = 		'Code (2 chars)';
-$lang['lang_name'] = 		'Label';
-$lang['settings_default_lang_title'] = 		'Default language';
-$lang['settings_default_lang_text'] = 		'Your website needs a default language.<br/>You can visit <a target="_blank" href="http://en.wikipedia.org/wiki/ISO_639-1">the Wikipedia ISO 639-1 page</a> for more information about language codes.';
+$lang['lang_code'] = 		'Код (2 симв.)';
+$lang['lang_name'] = 		'Метка';
+$lang['settings_default_lang_title'] = 		'Язык по умолчанию';
+$lang['settings_default_lang_text'] = 		'Вашему веб сайту требуется язык по умолчанию.<br/>Вы можете посетить <a target="_blank" href="http://en.wikipedia.org/wiki/ISO_639-1">страницу ISO 639-1 Википедии</a> для получения информации о кодах.';
 $lang['settings_error_missing_lang_code'] = "The lang code is mandatory";
 $lang['settings_error_missing_lang_name'] = "The lang name is mandatory";
 $lang['settings_error_lang_code_2_chars'] = "The lang code must be on 2 chars. Example : \"en\"";
