@@ -23,30 +23,30 @@
 |--------------------------------------------------------------------------
 */
 $lang['form_label_email'] = 'Email';
-$lang['form_label_name'] = 'Name';
-$lang['form_label_firstname'] = 'First Name';
-$lang['form_label_lastname'] = 'Last Name';
-$lang['form_label_screen_name'] = 'Screen Name';
-$lang['form_label_username'] = 'User name';
-$lang['form_label_birthdate'] = 'Birthdate';
-$lang['form_label_gender'] = 'Gender';
-$lang['form_label_login'] = 'Login';
-$lang['form_label_password'] = 'Password';
-$lang['form_label_password_confirmation'] = 'Password confirm';
-$lang['form_label_delete_account'] = 'Delete account';
+$lang['form_label_name'] = 'Имя';
+$lang['form_label_firstname'] = 'Имя';
+$lang['form_label_lastname'] = 'Фамилия';
+$lang['form_label_screen_name'] = 'Как отображать?';
+$lang['form_label_username'] = 'Имя пользователя';
+$lang['form_label_birthdate'] = 'Дата рождения';
+$lang['form_label_gender'] = 'Пол';
+$lang['form_label_login'] = 'Логин';
+$lang['form_label_password'] = 'Пароль';
+$lang['form_label_password_confirmation'] = 'Подтверждение';
+$lang['form_label_delete_account'] = 'Удалить профиль';
 
 /*
 |--------------------------------------------------------------------------
 | Buttons
 |--------------------------------------------------------------------------
 */
-$lang['form_button_send'] = "Send";
-$lang['form_button_save'] = "Save";
-$lang['form_button_register'] = "Register";
-$lang['form_button_login'] = "Login";
-$lang['form_button_logout'] = "Logout";
-$lang['form_button_post'] = "Post";
-$lang['form_button_answer'] = "Answer";
+$lang['form_button_send'] = "Отправить";
+$lang['form_button_save'] = "Сохранить";
+$lang['form_button_register'] = "Регистрация";
+$lang['form_button_login'] = "Войти";
+$lang['form_button_logout'] = "Выйти";
+$lang['form_button_post'] = "Отправить";
+$lang['form_button_answer'] = "Ответить";
 
 /*
 |--------------------------------------------------------------------------
@@ -54,19 +54,19 @@ $lang['form_button_answer'] = "Answer";
 |--------------------------------------------------------------------------
 */
 // Registration : Email to the website email
-$lang['mail_website_registration_subject'] = "Someone registered on the website";
-$lang['mail_website_registration_message'] = "Here are the details of this new member.";
+$lang['mail_website_registration_subject'] = "Кто-то зарегистрировался на сайте";
+$lang['mail_website_registration_message'] = "Вот подробности этого нового пользователя.";
 
 // Registration : Email to user
-$lang['mail_user_registration_subject'] = "Registration on %s";
-$lang['mail_user_registration_intro'] = "Dear %s,";
-$lang['mail_user_registration_message'] = "You just registered on <b>%s</b>.<br/>Here are your login information.";
-$lang['mail_user_registration_activate'] = "Before login, you need to activate your account through this link :";
+$lang['mail_user_registration_subject'] = "Регистрация на сайте %s";
+$lang['mail_user_registration_intro'] = "Уважаемый %s,";
+$lang['mail_user_registration_message'] = "Вы зарегистрировались на сайте <b>%s</b>.<br/>Ниже, информация о вас.";
+$lang['mail_user_registration_activate'] = "До того, как вы войдете, вам необходимо активировать ваш профиль. Ссылка ниже :";
 
 // New Password : Email to user
-$lang['mail_user_password_subject'] = "New password for your account on %s";
-$lang['mail_user_password_intro'] = "Dear %s,";
-$lang['mail_user_password_message'] = "You just asked for one new password to access to the website <b>%s</b>.<br/>Here are your new login information:";
+$lang['mail_user_password_subject'] = "Новый пароль от сайта %s";
+$lang['mail_user_password_intro'] = "Уважаемый %s,";
+$lang['mail_user_password_message'] = "Вы запопросили новый пароль для входа на сайт <b>%s</b>.<br/>Ниже информаци о вас:";
 
 /*
 |--------------------------------------------------------------------------
@@ -75,21 +75,21 @@ $lang['mail_user_password_message'] = "You just asked for one new password to ac
 | Declared as 'success' for each form in form setup : /config/ionize.php
 |--------------------------------------------------------------------------
 */
-$lang['form_not_logged'] = "You're not logged in.";
+$lang['form_not_logged'] = "Вы не авторизованы.";
 
-$lang['form_login_success_message'] = "You successfully logged in.";
-$lang['form_login_error_message'] = "Error : Check your login / password.";
-$lang['form_login_not_found_message'] = "User not found.";
-$lang['form_login_not_activated_message'] = "This account is not activated. Check your emails and click on the activation link.";
+$lang['form_login_success_message'] = "Вы успешно вошли.";
+$lang['form_login_error_message'] = "Ошибка: Проверьте ваш логин / пароль.";
+$lang['form_login_not_found_message'] = "Пользователь не найден.";
+$lang['form_login_not_activated_message'] = "Эта учетная запись не активирована. Проверьте вашу электронную почту и нажмите на ссылку активации.";
 
-$lang['form_register_success_message'] = "You successfully registered.";
-$lang['form_register_error_message'] = "Error : Registration not successful.";
+$lang['form_register_success_message'] = "Вы успешно зарегистрированы.";
+$lang['form_register_error_message'] = "Ошибка: Регистрация не удалась.";
 
-$lang['form_profile_success_message'] = "Profile data saved";
-$lang['form_profile_error_message'] = "This user already exists. Please change your username or email";
-$lang['form_profile_account_deleted'] = "Account deleted";
+$lang['form_profile_success_message'] = "Данные профиля сохранены";
+$lang['form_profile_error_message'] = "Этот пользователь уже существует. Пожалуйста, измените имя пользователя или email";
+$lang['form_profile_account_deleted'] = "Профиль удален";
 
-$lang['form_password_error_message'] = "One error happens.";
+$lang['form_password_error_message'] = "Произошла ошибка";
 $lang['form_password_not_found_message'] = "This email seems not to be in our system";
 $lang['form_password_success_message'] = "One email with you new password has just been sent to you.";
 
