@@ -111,11 +111,11 @@ $lang['password2'] = 			'Подтвердите пароль';
 $lang['user_error_missing_settings'] = 			'Пожалуйста, заполните все поля !';
 $lang['user_error_not_enough_char'] = 			'Логин или пароль должны быть больше 4 символов!';
 $lang['user_error_email_not_valid'] = 			'Email введен не верно, попробуйте еще раз.';
-$lang['user_error_passwords_not_equal'] = 		'Пароль и подтверждение не совпадают.	';
+$lang['user_error_passwords_not_equal'] = 		'Пароль и подтверждение не совпадают.';
 $lang['user_info_admin_exists'] = 		'Администратор существует в базе.<br/>Вы можете пропустить этот шаг, если не хотите создавать или обновлять учетную запись администратора.';
 $lang['encryption_key'] = 			'Ключ шифрования';
-$lang['encryption_key_text'] = 		"Ionize needs an 128 bits Encryption Key.<br />This key will encode the users account and all sensitive data.<br/>It will be written in the <b>/application/config/config.php</b> file.";
-$lang['no_encryption_key_found'] = 	"The encryption key was not found. the user account were not migrated. <b>You must create a new Admin user</b>.";
+$lang['encryption_key_text'] = 		"Ionize требуется ключ шифрования 128 бит.<br />Этот ключ защитит кофиденциальную информацию.<br/>Он будет записани в файл <b>/application/config/config.php</b>.";
+$lang['no_encryption_key_found'] = 	"Ключ шифрования не найден. Учетная запись пользователя не перенесена. <b>Вы должны создать ногвого Администратора</b>.";
 
 
 /*
