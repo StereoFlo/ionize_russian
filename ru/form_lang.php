@@ -90,37 +90,37 @@ $lang['form_profile_error_message'] = "Этот пользователь уже 
 $lang['form_profile_account_deleted'] = "Профиль удален";
 
 $lang['form_password_error_message'] = "Произошла ошибка";
-$lang['form_password_not_found_message'] = "Этого email возможно нет не в нашей системе.";
-$lang['form_password_success_message'] = "One email with you new password has just been sent to you.";
+$lang['form_password_not_found_message'] = "Этого email возможно нет в нашей системе.";
+$lang['form_password_success_message'] = "Вам был отправлен email с новым паролем.";
 
 /*
 |--------------------------------------------------------------------------
 | Validation Errors
 |--------------------------------------------------------------------------
 */
-$lang['form_error_javascript_required'] = "You need to have javascript activated to send this form.";
-$lang['form_error_spam'] = "Thank you for your good Spam !";
-$lang['form_error_required'] = "The <strong>%s</strong> field is required.";
-$lang['form_error_isset'] = "The <strong>%s</strong> field must have a value.";
-$lang['form_error_valid_email'] = "The <strong>%s</strong> field must contain a valid email address.";
-$lang['form_error_valid_emails'] = "The <strong>%s</strong> field must contain all valid email addresses.";
-$lang['form_error_valid_url'] = "The <strong>%s</strong> field must contain a valid URL.";
-$lang['form_error_valid_ip'] = "The <strong>%s</strong> field must contain a valid IP.";
-$lang['form_error_min_length'] = "The <strong>%s</strong> field must be at least %s characters in length.";
-$lang['form_error_max_length'] = "The <strong>%s</strong> field can not exceed %s characters in length.";
-$lang['form_error_exact_length'] = "The <strong>%s</strong> field must be exactly %s characters in length.";
-$lang['form_error_alpha'] = "The <strong>%s</strong> field may only contain alphabetical characters.";
-$lang['form_error_alpha_numeric'] = "The <strong>%s</strong> field may only contain alpha-numeric characters.";
-$lang['form_error_alpha_dash'] = "The <strong>%s</strong> field may only contain alpha-numeric characters, underscores, and dashes.";
-$lang['form_error_numeric'] = "The <strong>%s</strong> field must contain only numbers.";
-$lang['form_error_is_numeric'] = "The <strong>%s</strong> field must contain only numeric characters.";
-$lang['form_error_integer'] = "The <strong>%s</strong> field must contain an integer.";
-$lang['form_error_matches'] = "The <strong>%s</strong> fields do not match.";
-$lang['form_error_is_natural'] = "The <strong>%s</strong> field must contain only positive numbers.";
-$lang['form_error_is_natural_no_zero']	= "The <strong>%s</strong> field must contain a number greater than zero.";
-$lang['form_error_restricted_field'] = "Data were transmitted, which are not allowed.";
-$lang['form_error_terms'] = "You have to accept the terms of usage.";
-$lang['form_error_upload_something'] = "Something went wrong while uploading the files.";
-$lang['form_error_upload_file_size'] = "The uploaded file needn't be larger than 1 MB.";
-$lang['form_error_upload_file_type'] = "Only JPEGs, PNGs and GIFs are allowed.";
+$lang['form_error_javascript_required'] = "Чтобы использовать эту форму, вы должны включить javascript.";
+$lang['form_error_spam'] = "Спасибо за спам !";
+$lang['form_error_required'] = "Поле <strong>%s</strong> обязательно для заполнения.";
+$lang['form_error_isset'] = "Поле <strong>%s</strong> должно содержать значение.";
+$lang['form_error_valid_email'] = "Поле <strong>%s</strong> должно содержкать правильный email.";
+$lang['form_error_valid_emails'] = "Поле <strong>%s</strong> должно содержать все правильные email адреса.";
+$lang['form_error_valid_url'] = "Поле <strong>%s</strong> должно содержкать правильный URL.";
+$lang['form_error_valid_ip'] = "Поле <strong>%s</strong> должно содержкать правильный IP.";
+$lang['form_error_min_length'] = "Поле <strong>%s</strong> должно быть не менее %s символов.";
+$lang['form_error_max_length'] = "Поле <strong>%s</strong> не должно превышать %s сомволов.";
+$lang['form_error_exact_length'] = "Поле <strong>%s</strong> должно содержать %s символов.";
+$lang['form_error_alpha'] = "Поле <strong>%s</strong> может содержать только буквы.";
+$lang['form_error_alpha_numeric'] = "Поле <strong>%s</strong> может содержать только цифры.";
+$lang['form_error_alpha_dash'] = "Поле <strong>%s</strong> может содержать только буквенно-цифровые символы, подчеркивания и тире.";
+$lang['form_error_numeric'] = "Поле <strong>%s</strong> должно содержать только цифры.";
+$lang['form_error_is_numeric'] = "Поле <strong>%s</strong> должно содержать только цифры.";
+$lang['form_error_integer'] = "Поле <strong>%s</strong> должно содержать целое число.";
+$lang['form_error_matches'] = "Поле <strong>%s</strong> не совпадает.";
+$lang['form_error_is_natural'] = "Поле <strong>%s</strong> должно содержать только положительные числа.";
+$lang['form_error_is_natural_no_zero']	= "Поле <strong>%s</strong> должно содержать число больше нуля.";
+$lang['form_error_restricted_field'] = "Были переданны недоспутимые данные.";
+$lang['form_error_terms'] = "Вы должны согласиться с условиями использования.";
+$lang['form_error_upload_something'] = "Что-то пошло не так при загрузке файлов.";
+$lang['form_error_upload_file_size'] = "Загруженный файл не должен быть больше 1 Мб.";
+$lang['form_error_upload_file_type'] = "Только файлы JPEG, PNG и GIF-файлов могуть быть загружены.";
 
