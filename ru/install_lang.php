@@ -62,10 +62,10 @@ $lang['database_password'] = 		'Пароль';
 $lang['database_create'] = 			'Создать БД';
 $lang['title_database_create'] = 	'Создание БД';
 $lang['db_create_text'] = 			"<p>Ionize установит или произведет миграцию вашей БД:</p><p><b class=\"highlight\">Новая установка</b> : БД будет создана с новыми таблицами<br/><b class=\"highlight2\">Обновление</b> : Следующий шаг проверить и обновит то, что нужно</p>";
-$lang['db_create_prerequisite'] = 			"Пользователю нужны права на создание БД.<br/>If your database already exists, don't check it.";
+$lang['db_create_prerequisite'] = 			"Пользователю нужны права на создание БД.<br/>Если БД существует, проверка не нужна.";
 $lang['database_error_missing_settings'] = 	'Вы пропустили что-то.<br/>Заполните все поля !';
 $lang['database_success_install'] = 		'<b class="ex">База данных, успешно установлена.</b>';
-$lang['database_success_install_no_settings_needed'] = 		'<b class="ex">Database OK.</b><br/>As the database already exists, the website settings step will be skipped.';
+$lang['database_success_install_no_settings_needed'] = 		'<b class="ex">БД ОК.</b><br/>БД уже существует, шаг настройки веб-сайта будет пропущен.';
 $lang['database_success_migrate'] = 		'<b class="ex">База данных обновлена.</b>';
 $lang['database_error_coud_not_connect'] = 		'Подключение к БД с указанными данными не выполнено.';
 $lang['database_error_database_dont_exists'] = 		"База данных не существует !";
@@ -75,7 +75,7 @@ $lang['database_error_coud_not_create_database'] = "Программа уста�
 $lang['database_error_no_ionize_tables'] = 			"БД которую вы выбрали, возможно, не является БД Ionize. Проверьте еще раз.";
 $lang['database_error_no_users_to_migrate'] = 		"To user account to upgrade";
 $lang['database_migration_from'] = 			'БД требуется обновление.<br/>Обновить с версии : ';
-$lang['database_migration_text'] = 		"<p class=\"error\"><b>NOTICE :</b><br/> The database will now be upgraded.<b><br/>Please backup your database before this upgrade.</p>";
+$lang['database_migration_text'] = 		"<p class=\"error\"><b>ЗАМЕЧАНИЕ :</b><br/> БД будет обновлена.<b><br/>Сделайте бекап БД до обновления.</p>";
 
 
 /*
@@ -90,9 +90,9 @@ $lang['settings_default_lang_text'] = 		'Вашему веб сайту треб
 $lang['settings_error_missing_lang_code'] = "Код язык является обязательным";
 $lang['settings_error_missing_lang_name'] = "Код язык является обязательным";
 $lang['settings_error_lang_code_2_chars'] = "Код язык должен быть на 2 символов. Пример : \"ru\"";
-$lang['settings_error_write_rights'] = "No write rights on <b>/application/config/language.php</b>. Please check the PHP rights on this file.";
-$lang['settings_error_write_rights_config'] = "No write rights on <b>/application/config/config.php</b>. Please check the PHP rights on this file.";
-$lang['settings_error_admin_url'] = "The admin URL must be an alphanumerical string, without spaces or special chars";
+$lang['settings_error_write_rights'] = "Нет прав записи к файлу <b>/application/config/language.php</b>. Проверьте права и попробуйте снова.";
+$lang['settings_error_write_rights_config'] = "Нет прав записи к файлу <b>/application/config/config.php</b>. Проверьте права и попробуйте снова.";
+$lang['settings_error_admin_url'] = "URL админ-панели должен содержать только буквы и цифры, без пробелов и специальных символов";
 $lang['settings_admin_url_title'] = 		'URL админ-панели';
 $lang['settings_admin_url_text'] = 		'Настоятельно рекомендуется изменить.';
 $lang['admin_url'] = 'Admin URL';
@@ -123,7 +123,7 @@ $lang['no_encryption_key_found'] = 	"Ключ шифрования не найд
 | Data
 |--------------------------------------------------------------------------
 */
-$lang['data_install_intro'] = 	"<p>If this is the first time you use Ionize, it's strongly recommended you install the sample website.<br/>This website includes : </p><ul><li>A complete set of data, useful to test Ionize,</li><li>1 working example theme</li></ul>";
+$lang['data_install_intro'] = 	"<p>Если вы устанавливаете Ionize первый раз, мы настоятельно рекомендуем установить образец сайта.<br/>Сайт включает : </p><ul><li>Полный набор данных, полезных для тестирования Ionize,</li><li>1 тему оформления</li></ul>";
 $lang['title_skip_this_step'] = "Пропустить этот шаг";
 
 $lang['title_finish'] = 		'Установка завершена';
