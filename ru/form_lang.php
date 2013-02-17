@@ -90,7 +90,7 @@ $lang['form_profile_error_message'] = "Этот пользователь уже 
 $lang['form_profile_account_deleted'] = "Профиль удален";
 
 $lang['form_password_error_message'] = "Произошла ошибка";
-$lang['form_password_not_found_message'] = "This email seems not to be in our system";
+$lang['form_password_not_found_message'] = "Этого email возможно нет не в нашей системе.";
 $lang['form_password_success_message'] = "One email with you new password has just been sent to you.";
 
 /*
