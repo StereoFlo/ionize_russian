@@ -939,16 +939,16 @@ $lang['ionize_help_field_length'] = 'Field length';
 | Admin : Translations
 |--------------------------------------------------------------------------
 */
-$lang['ionize_tab_current_theme'] = 'Current theme';
-$lang['ionize_tab_modules'] = 'Modules';
+$lang['ionize_tab_current_theme'] = 'Действующая темя';
+$lang['ionize_tab_modules'] = 'Модули';
 $lang['ionize_text_module_translation_file_exist_for'] = 'This module has default languages files for';
-$lang['ionize_message_language_files_saved'] = 'Translations saved';
+$lang['ionize_message_language_files_saved'] = 'Переводы сохранены';
 $lang['ionize_message_language_dir_creation_fail'] = 'Folder creation impossible';
 $lang['ionize_message_language_file_creation_fail'] = 'File writing impossible';
-$lang['ionize_label_expand_all'] = 'Expand all';
-$lang['ionize_label_collapse_all'] = 'Collapse all';
-$lang['ionize_label_add_translation'] = 'Add a translated item';
-$lang['ionize_message_delete_translation'] = 'Delete this translation item?';
+$lang['ionize_label_expand_all'] = 'Раскрыть все';
+$lang['ionize_label_collapse_all'] = 'Закрыть все';
+$lang['ionize_label_add_translation'] = 'Добавить эелемнт перевода';
+$lang['ionize_message_delete_translation'] = 'Удалить эелемент перевода?';
 $lang['ionize_help_modules_translation'] = 'Available static translations for modules.<br/>These terms can be used in your theme views through <dfn><\ion:translation term="term" /></dfn>.<br/>If you want to overwrite some of them, add your translation in each term textarea.';
 				
 
@@ -957,10 +957,10 @@ $lang['ionize_help_modules_translation'] = 'Available static translations for mo
 | Admin : Media Manager / Tree brower
 |--------------------------------------------------------------------------
 */
-$lang['ionize_image_manager'] = 'Pictures';
-$lang['ionize_file_manager'] = 'Files';
-$lang['ionize_title_tree_browser'] = 'Click on one element to select it...';
-$lang['ionize_message_internal_link_not_found'] = 'Error : Internal link not found';
+$lang['ionize_image_manager'] = 'Изображения';
+$lang['ionize_file_manager'] = 'Файлы';
+$lang['ionize_title_tree_browser'] = 'Нажмите на элемент, чтобы выбрать его...';
+$lang['ionize_message_internal_link_not_found'] = 'Ошибка : Внутрянняя ссылка не найдена';
 
 
 /*
@@ -988,24 +988,24 @@ $lang['ionize_message_module_not_installed'] = 'Модуль не установ
 | Admin : System Check
 |--------------------------------------------------------------------------
 */
-$lang['ionize_title_system_check'] = 'System Diagnotic Tool';
-$lang['ionize_menu_sitemap'] = 'Site Map';
-$lang['ionize_menu_system_check'] = 'System Diagnotic';
+$lang['ionize_title_system_check'] = 'Средство диагностики системы';
+$lang['ionize_menu_sitemap'] = 'Карта сайта';
+$lang['ionize_menu_system_check'] = 'Диагностика системы';
 $lang['ionize_text_system_check'] = 'These tools check the Ionize integrity and repair what should be. You cannot break anything by using them.';
-$lang['ionize_button_start_system_check'] = 'Start Check';
-$lang['ionize_title_check_element'] = 'Checked Element';
-$lang['ionize_title_check_result'] = 'Result';
-$lang['ionize_title_check_status'] = 'Status';
-$lang['ionize_title_check_lang'] = 'Check Languages';
-$lang['ionize_title_check_folder'] = 'Folder';
-$lang['ionize_title_check_page_level'] = 'Pages Levels';
+$lang['ionize_button_start_system_check'] = 'Начать проверку';
+$lang['ionize_title_check_element'] = 'Проверенный эелемент';
+$lang['ionize_title_check_result'] = 'Результат';
+$lang['ionize_title_check_status'] = 'Статус';
+$lang['ionize_title_check_lang'] = 'Проверить языки';
+$lang['ionize_title_check_folder'] = 'Папка';
+$lang['ionize_title_check_page_level'] = 'Уровани страниц';
 $lang['ionize_title_check_article_context'] = 'Articles Contexts';
 $lang['ionize_title_check_views'] = 'Check Views';
-$lang['ionize_title_rebuild_urls'] = 'Rebuild URLs';
-$lang['ionize_title_rebuild_pages_urls'] = 'Rebuild of Pages URLs';
-$lang['ionize_title_rebuild_articles_urls'] = 'Rebuild of Articles URLs';
-$lang['ionize_title_clean_media'] = 'Clean Media';
-$lang['ionize_title_check_reports'] = 'Reports';
+$lang['ionize_title_rebuild_urls'] = 'Перестроить URLs';
+$lang['ionize_title_rebuild_pages_urls'] = 'Перестроить URL страниц';
+$lang['ionize_title_rebuild_articles_urls'] = 'Перестроить URL статей';
+$lang['ionize_title_clean_media'] = 'Очистить медиа';
+$lang['ionize_title_check_reports'] = 'Отчеты';
 $lang['ionize_title_broken_media_links'] = 'Media broken links';
 $lang['ionize_title_delete_thumbs'] = 'Delete thumbs';
 $lang['ionize_text_rebuild_urls'] = 'Rebuilds the whole pages and articles URLs.<br/> Removes the old URLs in the URL table.';
@@ -1015,11 +1015,11 @@ $lang['ionize_text_check_article_context'] = 'Checks if all articles which have 
 $lang['ionize_text_clean_media'] = 'Removes the non used medias from media tables. Do not removes any media file.';
 $lang['ionize_text_broken_media_links'] = 'Lists the media files which are in media table (means used) but not found on the server (file missing).';
 $lang['ionize_text_delete_thumbs'] = 'Deletes all the picture\'s thumbnails. The thumbnails will be created again once a visitor access the page using them';
-$lang['ionize_title_label_write_rights'] = 'Write rights';
-$lang['ionize_message_check_corrected'] = ' corrected.';
+$lang['ionize_title_label_write_rights'] = 'Права на запись';
+$lang['ionize_message_check_corrected'] = ' исправлено.';
 $lang['ionize_message_check_ok'] = 'OK';
-$lang['ionize_message_check_folder_nok'] = 'No Write rights';
-$lang['ionize_message_nb_media_cleaned'] = ' media cleaned';
+$lang['ionize_message_check_folder_nok'] = 'Нет прав на запись';
+$lang['ionize_message_nb_media_cleaned'] = ' медиа очищено';
 $lang['ionize_message_no_broken_media_links'] = 'No broken media found';
 $lang['ionize_message_thumbs_deleted'] = 'Thumbnails deleted';
 $lang['ionize_label_square_crop_area'] = 'Square crop area';
