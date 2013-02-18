@@ -847,12 +847,12 @@ $lang['ionize_help_article_window_title'] = 'Title of the browser window';
 $lang['ionize_help_article_context'] = 'Edit the article\'s page context data';
 $lang['ionize_help_missing_translated_content'] = 'Some language content translation is missing';
 $lang['ionize_help_orphan_article'] = 'Orphan article. Not linked to any page.';
-$lang['ionize_help_article_filter'] = 'Filter articles (not fully implemented)';
+$lang['ionize_help_article_filter'] = 'Фильтр статей';
 $lang['ionize_help_article_meta_description'] = 'Replace the parent description';
 $lang['ionize_help_article_meta_keywords'] = 'Replace the parent keywords';
-$lang['ionize_button_duplicate_article'] = 'Duplicate article';
-$lang['ionize_button_edit_mode'] = 'Edit Mode';
-$lang['ionize_button_full_mode'] = 'Full Mode';
+$lang['ionize_button_duplicate_article'] = 'Доблировать статью';
+$lang['ionize_button_edit_mode'] = 'Режим редактирования';
+$lang['ionize_button_full_mode'] = 'Полноэкранный режим';
 
 
 /*
@@ -1006,8 +1006,8 @@ $lang['ionize_title_rebuild_pages_urls'] = 'Перестроить URL стра�
 $lang['ionize_title_rebuild_articles_urls'] = 'Перестроить URL статей';
 $lang['ionize_title_clean_media'] = 'Очистить медиа';
 $lang['ionize_title_check_reports'] = 'Отчеты';
-$lang['ionize_title_broken_media_links'] = 'Media broken links';
-$lang['ionize_title_delete_thumbs'] = 'Delete thumbs';
+$lang['ionize_title_broken_media_links'] = 'Неработающие ссылки';
+$lang['ionize_title_delete_thumbs'] = 'Удалить миниатюры';
 $lang['ionize_text_rebuild_urls'] = 'Rebuilds the whole pages and articles URLs.<br/> Removes the old URLs in the URL table.';
 $lang['ionize_text_check_lang'] = 'Check if all languages defined in DB are set in the config file.<br/> Corrects the config file if needed.';
 $lang['ionize_text_check_page_level'] = 'Checks the page level integrity and correct if needed.';
