@@ -11,17 +11,17 @@ $lang['title_ionize_installation'] = 		'Установка';
 
 $lang['title_system_check'] = 		'Результаты проверки системы';
 $lang['title_database_settings'] = 	'Настройки БД';
-$lang['title_user_account'] = 	'Настройка администраторы';
+$lang['title_user_account'] = 	'Настройка администратора';
 $lang['title_default_language'] = 	'Язык по умолчанию';
 $lang['title_sample_data'] = 	'Установить пример сайта?';
 
 $lang['button_next_step'] = 		'Следущий шаг';
-$lang['button_skip_next_step'] = 	'Пропустить & Следущий шаг';
-$lang['button_save_next_step'] = 	'Сохранить & Следующий шаг';
+$lang['button_skip_next_step'] = 	'Пропустить & Далее';
+$lang['button_save_next_step'] = 	'Сохранить & Далее';
 $lang['button_install_test_data'] = 	"Установить тестовые данные";
 $lang['button_start_migrate'] = 		'Начать миграцию БД';
 
-$lang['nav_check'] = 'Проверка системы';
+$lang['nav_check'] = 'Система';
 $lang['nav_db'] = 'База данных';
 $lang['nav_settings'] = 'Настройка';
 $lang['nav_end'] = 'Финиш';
@@ -114,7 +114,7 @@ $lang['user_error_email_not_valid'] = 			'Email введен не верно, п
 $lang['user_error_passwords_not_equal'] = 		'Пароль и подтверждение не совпадают.';
 $lang['user_info_admin_exists'] = 		'Администратор существует в базе.<br/>Вы можете пропустить этот шаг, если не хотите создавать или обновлять учетную запись администратора.';
 $lang['encryption_key'] = 			'Ключ шифрования';
-$lang['encryption_key_text'] = 		"Ionize требуется ключ шифрования 128 бит.<br />Этот ключ защитит кофиденциальную информацию.<br/>Он будет записани в файл <b>/application/config/config.php</b>.";
+$lang['encryption_key_text'] = 		"Ionize требуется ключ шифрования 128 бит.<br />Этот ключ защитит кофиденциальную информацию.<br/>Он будет записан в файл <b>/application/config/config.php</b>.";
 $lang['no_encryption_key_found'] = 	"Ключ шифрования не найден. Учетная запись пользователя не перенесена. <b>Вы должны создать ногвого Администратора</b>.";
 
 
