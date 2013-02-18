@@ -44,7 +44,7 @@ $lang['write_config_dir'] = 	'<b>/application/config/</b>';
 $lang['write_files'] = 			'<b>/files/*</b>';
 $lang['write_themes'] = 		'<b>/themes/*</b>';
 $lang['config_check_errors'] = 	'Некоторые параметры не соответствуют требуемым.<br/>Пожалуйста, измените это.';
-$lang['welcome_text'] = 		"<p>Добро пожаловать ! Этот мастер поможет вам установить Ionize.</p>";
+$lang['welcome_text'] = 		"<p>Добро пожаловать! Этот мастер поможет вам установить Ionize.</p>";
 $lang['write_check_text'] = 	"<p>Следующим папкам и файлам требуется разрешение на запись...</p>";
 $lang['title_folder_check'] = 	"Следующим папкам требуется разрешение на запись";
 $lang['title_files_check'] = 	"Следующим файлам требуется разрешение на запись";
@@ -61,21 +61,21 @@ $lang['database_username'] = 		'Пользователь';
 $lang['database_password'] = 		'Пароль';
 $lang['database_create'] = 			'Создать БД';
 $lang['title_database_create'] = 	'Создание БД';
-$lang['db_create_text'] = 			"<p>Ionize установит или произведет миграцию вашей БД:</p><p><b class=\"highlight\">Новая установка</b> : БД будет создана с новыми таблицами<br/><b class=\"highlight2\">Обновление</b> : Следующий шаг проверить и обновит то, что нужно</p>";
+$lang['db_create_text'] = 			"<p>Ionize установит или произведет миграцию вашей БД:</p><p><b class=\"highlight\">Новая установка</b>: БД будет создана с новыми таблицами<br/><b class=\"highlight2\">Обновление</b>: Следующий шаг проверит и обновит то, что нужно</p>";
 $lang['db_create_prerequisite'] = 			"Пользователю нужны права на создание БД.<br/>Если БД существует, проверка не нужна.";
 $lang['database_error_missing_settings'] = 	'Вы пропустили что-то.<br/>Заполните все поля !';
 $lang['database_success_install'] = 		'<b class="ex">База данных, успешно установлена.</b>';
 $lang['database_success_install_no_settings_needed'] = 		'<b class="ex">БД ОК.</b><br/>БД уже существует, шаг настройки веб-сайта будет пропущен.';
 $lang['database_success_migrate'] = 		'<b class="ex">База данных обновлена.</b>';
 $lang['database_error_coud_not_connect'] = 		'Подключение к БД с указанными данными не выполнено.';
-$lang['database_error_database_dont_exists'] = 		"База данных не существует !";
+$lang['database_error_database_dont_exists'] = 		"База данных не существует!";
 $lang['database_error_writing_config_file'] = 		"<b>Error :</b><br/>Файл <b style=\"color:#000;\">/application/config/database.php</b> недоступен для записи!<br/>Проверьте права доступа.";
 $lang['database_error_coud_not_write_database'] = 		"<b>Ошиька :</b><br/> Невозможно записать данные в базу данных.<br/>Проверьте права доступа к БД.";
 $lang['database_error_coud_not_create_database'] = "Программа установки не может создать базу данных. Проверьте имя базы данных или ваши права";
 $lang['database_error_no_ionize_tables'] = 			"БД которую вы выбрали, возможно, не является БД Ionize. Проверьте еще раз.";
 $lang['database_error_no_users_to_migrate'] = 		"To user account to upgrade";
-$lang['database_migration_from'] = 			'БД требуется обновление.<br/>Обновить с версии : ';
-$lang['database_migration_text'] = 		"<p class=\"error\"><b>ЗАМЕЧАНИЕ :</b><br/> БД будет обновлена.<b><br/>Сделайте бекап БД до обновления.</p>";
+$lang['database_migration_from'] = 			'БД требуется обновление.<br/>Обновить с версии: ';
+$lang['database_migration_text'] = 		"<p class=\"error\"><b>ЗАМЕЧАНИЕ:</b><br/> БД будет обновлена.<b><br/>Сделайте бекап БД до обновления.</p>";
 
 
 /*
