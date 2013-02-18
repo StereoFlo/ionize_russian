@@ -781,13 +781,13 @@ $lang['ionize_exception_image_lib'] = 'Image Lib Error';
 | Admin : Article
 |--------------------------------------------------------------------------
 */
-$lang['ionize_title_articles'] = 'Articles';
-$lang['ionize_select_no_parent'] = '-- No one --';
-$lang['ionize_select_no_category'] = '-- No one --';
-$lang['ionize_title_create_article'] = 'Create article';
-$lang['ionize_title_new_article'] = 'New article';
+$lang['ionize_title_articles'] = 'Статьи';
+$lang['ionize_select_no_parent'] = '-- Нет родителя --';
+$lang['ionize_select_no_category'] = '-- Нет категории --';
+$lang['ionize_title_create_article'] = 'Создать статью';
+$lang['ionize_title_new_article'] = 'Новая статья';
 $lang['ionize_title_edit_article'] = 'Article edition';
-$lang['ionize_title_comments'] = 'Comments';
+$lang['ionize_title_comments'] = 'Комментарии';
 $lang['ionize_title_duplicate_article'] = 'Duplicate article';
 $lang['ionize_title_duplicate_source_context'] = 'Source article';
 $lang['ionize_title_duplicate_destination'] = 'Destination';
