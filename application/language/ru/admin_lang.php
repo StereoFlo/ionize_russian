@@ -773,7 +773,7 @@ $lang['ionize_exception_image_crop'] = 'Image Lib : Impossible to crop the pictu
 $lang['ionize_exception_copy'] = 'PHP: Копирование изображения не возможно';
 $lang['ionize_exception_no_source_file'] = 'Исходный файл не найден';
 $lang['ionize_exception_memory_limit'] = 'PHP лимит памяти исчерпан';
-$lang['ionize_exception_image_lib'] = 'Image Lib Error';
+$lang['ionize_exception_image_lib'] = 'Ошибка библиотеки изображений';
 
 
 /*
@@ -825,7 +825,7 @@ $lang['ionize_message_article_url_exists'] = 'Статья с таким URL у�
 $lang['ionize_message_article_url_exists_in_page'] = 'Статья с таким URL существует на этой странице';
 $lang['ionize_message_article_ordered'] = 'Статья перераспределена';
 $lang['ionize_message_article_duplicate_no_name_change'] = 'The duplicated article must have another name!';
-$lang['ionize_message_article_duplicated'] = 'Article duplicated';
+$lang['ionize_message_article_duplicated'] = 'Статья дублирована';
 $lang['ionize_message_article_not_duplicated'] = 'Article not duplicated';
 $lang['ionize_message_article_needs_url_or_title'] = 'Please fill title or URL for the default language !';
 $lang['ionize_message_drop_only_page'] = 'Please drop only a page!';
@@ -838,18 +838,18 @@ $lang['ionize_message_article_context_saved'] = 'Article settings saved';
 $lang['ionize_message_article_lang_copied'] = 'Lang data copied. Save please !';
 $lang['ionize_message_article_main_parent_saved'] = 'Main Parent Page saved !';
 // Inline help
-$lang['ionize_help_article_online'] = 'Is this article online?';
-$lang['ionize_help_article_content_online'] = 'Is this content online?';
-$lang['ionize_help_indexed'] = 'If checked, the article content will be fulltext indexed (ready for internal search)';
-$lang['ionize_help_article_link'] = 'HTTP link. Can be used with the link tag';
-$lang['ionize_help_articles_types'] = 'Type of article. Useful for distinguish articles in a page view';
-$lang['ionize_help_article_window_title'] = 'Title of the browser window';
+$lang['ionize_help_article_online'] = 'Эта статья включена?';
+$lang['ionize_help_article_content_online'] = 'Наполнение включено?';
+$lang['ionize_help_indexed'] = 'Если отмечено, нополнение будет полностью индексироваться (для внутреннего поиска)';
+$lang['ionize_help_article_link'] = 'HTTP ссылка. Может использоватся с меткой ссыки';
+$lang['ionize_help_articles_types'] = 'Вид статьи. Useful for distinguish articles in a page view';
+$lang['ionize_help_article_window_title'] = 'заголовок окна браузера';
 $lang['ionize_help_article_context'] = 'Edit the article\'s page context data';
 $lang['ionize_help_missing_translated_content'] = 'Some language content translation is missing';
 $lang['ionize_help_orphan_article'] = 'Orphan article. Not linked to any page.';
 $lang['ionize_help_article_filter'] = 'Фильтр статей';
-$lang['ionize_help_article_meta_description'] = 'Replace the parent description';
-$lang['ionize_help_article_meta_keywords'] = 'Replace the parent keywords';
+$lang['ionize_help_article_meta_description'] = 'Переместить родительсткое описание';
+$lang['ionize_help_article_meta_keywords'] = 'Переместить родительские ключевые слова';
 $lang['ionize_button_duplicate_article'] = 'Доблировать статью';
 $lang['ionize_button_edit_mode'] = 'Режим редактирования';
 $lang['ionize_button_full_mode'] = 'Полноэкранный режим';
@@ -1020,12 +1020,12 @@ $lang['ionize_message_check_corrected'] = ' исправлено.';
 $lang['ionize_message_check_ok'] = 'OK';
 $lang['ionize_message_check_folder_nok'] = 'Нет прав на запись';
 $lang['ionize_message_nb_media_cleaned'] = ' медиа очищено';
-$lang['ionize_message_no_broken_media_links'] = 'No broken media found';
+$lang['ionize_message_no_broken_media_links'] = 'Нет проблем с медиа';
 $lang['ionize_message_thumbs_deleted'] = 'Изображения удалены';
 $lang['ionize_label_square_crop_area'] = 'Square crop area';
-$lang['ionize_label_top_left'] = 'top-left';
-$lang['ionize_label_middle'] = 'middle';
-$lang['ionize_label_bottom_right'] = 'bottom-right';
+$lang['ionize_label_top_left'] = 'Слева';
+$lang['ionize_label_middle'] = 'Середина';
+$lang['ionize_label_bottom_right'] = 'Справа';
 
 /*
 |--------------------------------------------------------------------------
