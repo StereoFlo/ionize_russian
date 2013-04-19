@@ -52,8 +52,8 @@ $lang['connect_user_registration_message'] = 'В письме вы получи�
 $lang['connect_home_page'] = 'Главная страница';
 $lang['connect_activation_title'] = 'Аккаунт активирован';
 $lang['connect_user_activated_message'] = 'Ваш аккаут активирован.<br/>Вы можете войти с главной страницы';
-$lang['connect_user_activated_error'] = 'Something went wrong with the account you are trying to activate. Maybe have you already activated it, or maybe are you using the wrong informations? Try to login with your account informations, or verify the email we\'ve sent to you and try again.';
+$lang['connect_user_activated_error'] = 'Что-то пошло не так с аккаунтом, который вы пытаетесь активировать. Может быть, вы уже активировали его, или вы используете неправильную информацию? Попытайтесь войти в систему с вашим аккантом, или проверьте электронную почту, мы отправили вам ссылку повторно.';
 
-$lang['connect_admin_activated_message'] = 'This account is activated now.<br/>A mail was just sent to the user to inform him.';
-$lang['connect_admin_activated_error'] = 'Something went wrong with the account you are trying to activate.Maybe have you already activated it, or maybe are you using the wrong informations?';
+$lang['connect_admin_activated_message'] = 'Этот аккаунт активирован.<br/>Письмо отправлено пользователю.';
+$lang['connect_admin_activated_error'] = 'Что-то пошло не так с аккаунтом, который вы пытаетесь активировать. Может быть, вы уже активировали его, или вы используете неправильную информацию? Попытайтесь войти в систему с вашим аккантом, или проверьте электронную почту, мы отправили вам ссылку повторно.';
 
