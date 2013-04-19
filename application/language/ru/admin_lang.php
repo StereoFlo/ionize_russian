@@ -455,7 +455,7 @@ $lang['ionize_title_admin_panel_datetime'] =  'Дата и время';
 $lang['ionize_label_display_connected_label'] = 'Метка подключения';
 $lang['ionize_help_display_connected_label'] = 'Отображает метку в левом верхнем углу веб-сайта, когда вы находитесь в админ-панели';
 $lang['ionize_label_enable_backend_tracker'] = 'Трекер админ-панели';
-$lang['ionize_help_enable_backend_tracker'] = 'Displays users logged to the backend on the dashboard / displays one alert flag on content when it is edited by another user.';
+$lang['ionize_help_enable_backend_tracker'] = 'Показывать пользователей вошедших в админку / displays one alert flag on content when it is edited by another user.';
 $lang['ionize_onchange_ionize_settings'] = 'Панель администратора будет перезагружена с новыми настройками.';
 $lang['ionize_label_sitemaps_gzip'] = 'Сжимать карту сайта';
 $lang['ionize_help_setting_sitemaps_gzip'] = 'Сжимать файл карты сайта используя gzip.';
@@ -692,7 +692,7 @@ $lang['ionize_help_page_link'] = 'Внутренняя или внешняя HTT
 $lang['ionize_help_page_view'] = 'Common page view';
 $lang['ionize_help_page_type'] = 'тип страницы (модель)';
 $lang['ionize_help_page_single_view'] = 'Шаблон показа одной статьи';
-$lang['ionize_help_pagination'] = 'If > 0, activate the pagination of article.';
+$lang['ionize_help_pagination'] = 'Если > 0, активировать постаничный вывод статьи.';
 $lang['ionize_help_article_list_template'] = 'Article view : If more than 1 article on the page, use this view by default for each article';
 $lang['ionize_help_article_template'] = 'Article view : Use this view for each article displayed in standalone mode OR if just one article in this page';
 $lang['ionize_help_appears'] = 'Does the page appears in the navigation menu ?';
@@ -705,7 +705,7 @@ $lang['ionize_help_page_drop_article_here'] = 'Drag an article from the left tre
 $lang['ionize_label_help_articles_types_and_views'] = 'О видах и шаблонах';
 $lang['ionize_label_help_articles_types'] = 'О видах';
 $lang['ionize_label_help_articles_reorder'] = 'Reorder articles by date. Date calculation : Logical or Publish On or Creation.';
-$lang['ionize_help_sitemap_priority'] = 'Page priority, between 0 and 10';
+$lang['ionize_help_sitemap_priority'] = 'Приоритет страницы, от 0 до 10';
 
 /*
 |--------------------------------------------------------------------------
