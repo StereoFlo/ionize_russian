@@ -11,7 +11,7 @@
 */
 
 // Main library language elements
-$lang['connect_login_failed'] = 'The login information you provided could not be authenticated. Either the username or the password you entered are wrong. Please try again.';
+$lang['connect_login_failed'] = 'Вы ввели не верную информацию, попробуйте снова.';
 $lang['connect_access_denied'] = 'Вам закрыт досту к %s';
 $lang['connect_missing_parameters']	= 'The parameter(s) %s was missing';
 $lang['connect_parameter_error'] = 'The parameter passed to %s is wrong.';
